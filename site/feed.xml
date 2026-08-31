@@ -5,8 +5,96 @@
     <link>https://spinfosecurity.github.io/ics-ot-advisories/</link>
     <description>Aggregated CISA ICS/OT security advisories for industrial control equipment maintainers.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2026 14:30:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 19:43:59 +0000</lastBuildDate>
     <atom:link href="https://spinfosecurity.github.io/ics-ot-advisories/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ebyte NA111-M</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-05</link>
+      <guid isPermaLink="false">ICSA-26-239-05</guid>
+      <pubDate>Thu, 27 Aug 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-239-05 · Severity: CRITICAL · Vendor: Ebyte · CVSS: 9.8 · Successful exploitation of these vulnerabilities could allow an attacker to fully compromise the device.</description>
+    </item>
+    <item>
+      <title>Applied Systems Engineering ASE2000 V2 Communications Test Set</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-04</link>
+      <guid isPermaLink="false">ICSA-26-239-04</guid>
+      <pubDate>Thu, 27 Aug 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-239-04 · Severity: CRITICAL · Vendor: Applied Systems Engineering · CVSS: 9.8 · Successful exploitation of these vulnerabilities could allow an attacker to read or write arbitrary local files, cause the application to issue outbound network requests, or intercept the connection to impersonate the trusted peer, complete the TLS handshake, and read or modif…</description>
+    </item>
+    <item>
+      <title>Rockwell Automation OTTO Fleet Manager</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-03</link>
+      <guid isPermaLink="false">ICSA-26-239-03</guid>
+      <pubDate>Thu, 27 Aug 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-239-03 · Severity: MEDIUM · Vendor: Rockwell Automation · CVSS: 6.8 · Successful exploitation of this vulnerability could reduce the computational cost required for an attacker to perform offline brute-force attacks against stored password hashes.</description>
+    </item>
+    <item>
+      <title>All-Line Equipment Company Fuel-Boss</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-02</link>
+      <guid isPermaLink="false">ICSA-26-239-02</guid>
+      <pubDate>Thu, 27 Aug 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-239-02 · Severity: HIGH · Vendor: All-Line Equipment Company · CVSS: 8.7 · Successful exploitation of these vulnerabilities could allow attackers to execute arbitrary commands or code remotely on affected systems.</description>
+    </item>
+    <item>
+      <title>Xiiaozet LK100W</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-01</link>
+      <guid isPermaLink="false">ICSA-26-239-01</guid>
+      <pubDate>Thu, 27 Aug 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-239-01 · Severity: CRITICAL · Vendor: Xiiaozet · CVSS: 9.8 · Successful exploitation of these vulnerabilities could allow an attacker to take control over the device.</description>
+    </item>
+    <item>
+      <title>FURUNO FA-50 Class B AIS Transponder</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-07</link>
+      <guid isPermaLink="false">ICSA-26-237-07</guid>
+      <pubDate>Tue, 25 Aug 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-237-07 · Severity: CRITICAL · Vendor: FURUNO ELECTRIC CO.,LTD. · CVSS: 9.1 · Successful exploitation of these vulnerabilities could allow an attacker to alter device settings.</description>
+    </item>
+    <item>
+      <title>Ebyte NE2-D11</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06</link>
+      <guid isPermaLink="false">ICSA-26-237-06</guid>
+      <pubDate>Tue, 25 Aug 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-237-06 · Severity: CRITICAL · Vendor: Ebyte · CVSS: 9.8 · Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized administrative access, disclose sensitive information, modify device configuration, hijack authenticated sessions, and disrupt device operation.</description>
+    </item>
+    <item>
+      <title>Bendix EC80 Brake ECU</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-05</link>
+      <guid isPermaLink="false">ICSA-26-237-05</guid>
+      <pubDate>Tue, 25 Aug 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-237-05 · Severity: HIGH · Vendor: Bendix · CVSS: 7.5 · Successful exploitation of these vulnerabilities could allow an attacker to cause the loss of ABS functions, steering assist, speedometer, shifting capabilities, or disable automatic traction control.</description>
+    </item>
+    <item>
+      <title>PayRange API</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04</link>
+      <guid isPermaLink="false">ICSA-26-237-04</guid>
+      <pubDate>Tue, 25 Aug 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-237-04 · Severity: HIGH · Vendor: PayRange · CVSS: 8.8 · Successful exploitation of this vulnerability could allow a remote, authenticated or unauthenticated attacker to disclose sensitive information, arbitrarily modify the device to cause a denial of service, or alter a devices displayed image.</description>
+    </item>
+    <item>
+      <title>Zoneminder</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-02</link>
+      <guid isPermaLink="false">ICSA-26-237-02</guid>
+      <pubDate>Tue, 25 Aug 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-237-02 · Severity: HIGH · Vendor: Zoneminder · CVSS: 8.8 · Successful exploitation of this vulnerability could result in full Remote Code Execution (RCE) as the web server user.</description>
+    </item>
+    <item>
+      <title>Rently Smart Home</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01</link>
+      <guid isPermaLink="false">ICSA-26-237-01</guid>
+      <pubDate>Tue, 25 Aug 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-237-01 · Severity: HIGH · Vendor: Rently · CVSS: 8.1 · Successful exploitation of this vulnerability could allow an attacker to access sensitive information and override user permissions.</description>
+    </item>
     <item>
       <title>Johnson Controls Simplex Incident Manager</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01</link>
@@ -24,20 +112,20 @@
       <description>CISA ICSA-26-230-01 · Severity: HIGH · Vendor: CISA · CVSS: 8.8 · Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition or execute arbitrary code.</description>
     </item>
     <item>
-      <title>Johnson Controls Metasys</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-14</link>
-      <guid isPermaLink="false">ICSA-26-225-14</guid>
-      <pubDate>Thu, 13 Aug 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-225-14 · Severity: HIGH · Vendor: Johnson Controls Inc · CVSS: 8.0 · Successful exploitation of this vulnerability could allow a low-privilege user or attacker to inject a persistent malicious payload via a crafted URL that executes in the context of other users' sessions, including administrators, potentially leading to session hijacking and u…</description>
-    </item>
-    <item>
       <title>Flow Neuroscience FL-100</title>
       <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01</link>
       <guid isPermaLink="false">ICSMA-26-225-01</guid>
       <pubDate>Thu, 13 Aug 2026 06:00:00 +0000</pubDate>
       <category>medical</category>
       <description>CISA ICSMA-26-225-01 · Severity: HIGH · Vendor: Flow Neuroscience · CVSS: 8.1 · Successful exploitation of this vulnerability could allow an attacker within Bluetooth range to manipulate brain stimulation parameters and override safety limits.</description>
+    </item>
+    <item>
+      <title>Johnson Controls Metasys</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-14</link>
+      <guid isPermaLink="false">ICSA-26-225-14</guid>
+      <pubDate>Thu, 13 Aug 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-225-14 · Severity: HIGH · Vendor: Johnson Controls Inc · CVSS: 8.0 · Successful exploitation of this vulnerability could allow a low-privilege user or attacker to inject a persistent malicious payload via a crafted URL that executes in the context of other users' sessions, including administrators, potentially leading to session hijacking and u…</description>
     </item>
     <item>
       <title>ANDRITZ HIPASE-250 and 250 SCALA</title>
@@ -56,20 +144,20 @@
       <description>CISA ICSA-26-225-03 · Severity: MEDIUM · Vendor: Johnson Controls Inc. · CVSS: 6.8 · Successful exploitation of these vulnerabilities could allow an attacker to decrypt sensitive data, bypass authentication controls, gaining unauthorized access to read arbitrary files on the system, or gain unauthorized access to protected system resources.</description>
     </item>
     <item>
-      <title>AVEVA Enterprise SCADA</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-01</link>
-      <guid isPermaLink="false">ICSA-26-225-01</guid>
-      <pubDate>Thu, 13 Aug 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-225-01 · Severity: HIGH · Vendor: AVEVA · CVSS: 7.1 · Successful exploitation of this vulnerability could allow an attacker to tamper with serialized data, potentially resulting in code execution during deserialization.</description>
-    </item>
-    <item>
       <title>Haiwell IoT Cloud HMI Gateway</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-02</link>
       <guid isPermaLink="false">ICSA-26-225-02</guid>
       <pubDate>Thu, 13 Aug 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-225-02 · Severity: CRITICAL · Vendor: Haiwell · CVSS: 10.0 · Successful exploitation of this vulnerability may allow an attacker to inject and execute arbitrary OS commands with root privileges.</description>
+    </item>
+    <item>
+      <title>AVEVA Enterprise SCADA</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-01</link>
+      <guid isPermaLink="false">ICSA-26-225-01</guid>
+      <pubDate>Thu, 13 Aug 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-225-01 · Severity: HIGH · Vendor: AVEVA · CVSS: 7.1 · Successful exploitation of this vulnerability could allow an attacker to tamper with serialized data, potentially resulting in code execution during deserialization.</description>
     </item>
     <item>
       <title>Pulsetto Vagus Nerve Stimulator</title>
@@ -86,6 +174,14 @@
       <pubDate>Tue, 11 Aug 2026 06:00:00 +0000</pubDate>
       <category>medical</category>
       <description>CISA ICSMA-26-223-01 · Severity: CRITICAL · Vendor: Quanovate Tech Inc. (operating as Mira / Mira Care) · CVSS: 9.8 · Successful exploitation of these vulnerabilities could allow an attacker to access unauthorized health profile information, make changes to health information, cause a denial-of-service condition, disclose session token information, and obtain control of user accounts.</description>
+    </item>
+    <item>
+      <title>Siemens SIMATIC IoT2050 Advanced</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-03</link>
+      <guid isPermaLink="false">ICSA-26-237-03</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-237-03 · Severity: CRITICAL · Vendor: Siemens · CVSS: 10.0 · SIMATIC IoT2050 Advanced devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlyi…</description>
     </item>
     <item>
       <title>Siemens Simcenter Nastran</title>
@@ -112,20 +208,20 @@
       <description>CISA ICSA-26-225-12 · Severity: HIGH · Vendor: Siemens · CVSS: 7.8 · Solid Edge is affected by multiple file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR, PSM or DFT format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released new versi…</description>
     </item>
     <item>
-      <title>Siemens Parasolid</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-10</link>
-      <guid isPermaLink="false">ICSA-26-225-10</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-225-10 · Severity: HIGH · Vendor: Siemens · CVSS: 7.8 · Parasolid is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released new versions for the affected products and…</description>
-    </item>
-    <item>
       <title>Siemens Simcenter Femap</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-11</link>
       <guid isPermaLink="false">ICSA-26-225-11</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-225-11 · Severity: HIGH · Vendor: Siemens · CVSS: 7.8 · Simcenter Femap contains two file parsing vulnerabilities that could be triggered when the application reads files in BMP file format. If a user is tricked to open a malicious file with the affected application, this could lead the application to crash or potentially lead to a…</description>
+    </item>
+    <item>
+      <title>Siemens Parasolid</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-10</link>
+      <guid isPermaLink="false">ICSA-26-225-10</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-225-10 · Severity: HIGH · Vendor: Siemens · CVSS: 7.8 · Parasolid is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released new versions for the affected products and…</description>
     </item>
     <item>
       <title>Siemens Parasolid</title>
@@ -144,20 +240,20 @@
       <description>CISA ICSA-26-225-08 · Severity: MEDIUM · Vendor: Siemens · CVSS: 4.3 · A vulnerability in Desigo DXR and PXC controllers has been identified that could allow an attacker to cause denial of service conditions by sending malformed BACnet packets. Recovery requires a device reset or reboot to restore normal functionality. Siemens has released new ve…</description>
     </item>
     <item>
-      <title>Siemens RUGGEDCOM APE1808</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-06</link>
-      <guid isPermaLink="false">ICSA-26-225-06</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-225-06 · Severity: MEDIUM · Vendor: Siemens · CVSS: 6.1 · Fortinet has published information on vulnerabilities in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to contact customer support for additional information, and follow Fortinet advisory for workarounds and mitigation measures.</description>
-    </item>
-    <item>
       <title>Siemens License Server (SLS)</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07</link>
       <guid isPermaLink="false">ICSA-26-225-07</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-225-07 · Severity: HIGH · Vendor: Siemens · CVSS: 7.5 · Siemens License Server is affected by multiple vulnerabilities which could allow an attacker to elevate its privileges and read arbitrary files on the system. Siemens has released a new version for Siemens License Server (SLS) and recommends to update to the latest version.</description>
+    </item>
+    <item>
+      <title>Siemens RUGGEDCOM APE1808</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-06</link>
+      <guid isPermaLink="false">ICSA-26-225-06</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-225-06 · Severity: MEDIUM · Vendor: Siemens · CVSS: 6.1 · Fortinet has published information on vulnerabilities in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to contact customer support for additional information, and follow Fortinet advisory for workarounds and mitigation measures.</description>
     </item>
     <item>
       <title>CPDLC over ATN-B1 Vulnerabilities</title>
@@ -232,6 +328,14 @@
       <description>CISA ICSA-26-211-08 · Severity: HIGH · Vendor: o6 Automation GmbH · CVSS: 8.8 · Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, cause a denial of service, or potentially execute arbitrary code.</description>
     </item>
     <item>
+      <title>NASA Core Flight System (cFS) Health &amp; Safety (HS) Application</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-06</link>
+      <guid isPermaLink="false">ICSA-26-211-06</guid>
+      <pubDate>Thu, 30 Jul 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-211-06 · Severity: HIGH · Vendor: NASA · CVSS: 7.5 · Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.</description>
+    </item>
+    <item>
       <title>Rockwell Automation CompactLogix 5380 ControlLogix 5580 / 1756-EN4TR Communications Module</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-05</link>
       <guid isPermaLink="false">ICSA-26-211-05</guid>
@@ -254,14 +358,6 @@
       <pubDate>Thu, 30 Jul 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-211-02 · Severity: LOW · Vendor: Johnson Controls Inc. · CVSS: 2.4 · Successful exploitation of these vulnerabilities could allow an attacker to upload malicious files, execute stored cross-site scripting attacks, or inject arbitrary HTML content.</description>
-    </item>
-    <item>
-      <title>NASA Core Flight System (cFS) Health &amp; Safety (HS) Application</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-06</link>
-      <guid isPermaLink="false">ICSA-26-211-06</guid>
-      <pubDate>Thu, 30 Jul 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-211-06 · Severity: HIGH · Vendor: NASA · CVSS: 7.5 · Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.</description>
     </item>
     <item>
       <title>MikroTik RouterOS</title>
@@ -336,20 +432,20 @@
       <description>CISA ICSA-26-204-06 · Severity: HIGH · Vendor: MZ Automation · CVSS: 8.1 · Successful exploitation of these vulnerabilities could allow an unauthenticated network-adjacent attacker to crash critical IEC 61850 services or execute arbitrary code, disrupting or compromising protection, visibility, and control functions.</description>
     </item>
     <item>
-      <title>Weintek cMT3092X</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03</link>
-      <guid isPermaLink="false">ICSA-26-204-03</guid>
-      <pubDate>Thu, 23 Jul 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-204-03 · Severity: HIGH · Vendor: Weintek · CVSS: 8.8 · Successful exploitation of these vulnerabilities could allow a non-privileged user to escalate privileges or view the credentials of other users.</description>
-    </item>
-    <item>
       <title>Panduit IntraVUE</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04</link>
       <guid isPermaLink="false">ICSA-26-204-04</guid>
       <pubDate>Thu, 23 Jul 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-204-04 · Severity: CRITICAL · Vendor: Pronetiqs · CVSS: 10.0 · Successful exploitation of these vulnerabilities could allow an attacker with access to the IT network to manipulate industrial control devices without requiring physical access, specialized insider knowledge, or advanced tooling.</description>
+    </item>
+    <item>
+      <title>Weintek cMT3092X</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03</link>
+      <guid isPermaLink="false">ICSA-26-204-03</guid>
+      <pubDate>Thu, 23 Jul 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-204-03 · Severity: HIGH · Vendor: Weintek · CVSS: 8.8 · Successful exploitation of these vulnerabilities could allow a non-privileged user to escalate privileges or view the credentials of other users.</description>
     </item>
     <item>
       <title>Johnson Controls XAAP Android</title>
@@ -424,20 +520,20 @@
       <description>CISA ICSA-26-197-08 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the affected product.</description>
     </item>
     <item>
-      <title>Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06</link>
-      <guid isPermaLink="false">ICSA-26-197-06</guid>
-      <pubDate>Thu, 16 Jul 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-197-06 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 8.6 · Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition.</description>
-    </item>
-    <item>
       <title>SALTO ProAccess Space</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-07</link>
       <guid isPermaLink="false">ICSA-26-197-07</guid>
       <pubDate>Thu, 16 Jul 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-197-07 · Severity: MEDIUM · Vendor: SALTO · CVSS: 6.5 · Successful exploitation of this vulnerability allows an authenticated attacker to escalate privileges and access spaces outside their assigned partition, within the same Salto ProAccess Space installation or system. Exploitation requires valid authenticated operator credential…</description>
+    </item>
+    <item>
+      <title>Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06</link>
+      <guid isPermaLink="false">ICSA-26-197-06</guid>
+      <pubDate>Thu, 16 Jul 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-197-06 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 8.6 · Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition.</description>
     </item>
     <item>
       <title>AutomationDirect Productivity Suite</title>
@@ -448,20 +544,20 @@
       <description>CISA ICSA-26-197-04 · Severity: HIGH · Vendor: AutomationDirect · CVSS: 7.0 · Successful exploitation of these vulnerabilities could allow an attacker with local or physical access to cause memory corruption, unintended information disclosure, application instability, or a denial-of-service condition in the affected product.</description>
     </item>
     <item>
-      <title>Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02</link>
-      <guid isPermaLink="false">ICSA-26-197-02</guid>
-      <pubDate>Thu, 16 Jul 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-197-02 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.</description>
-    </item>
-    <item>
       <title>NASA Core Flight System (cFS) Health &amp; Safety (HS) Application</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03</link>
       <guid isPermaLink="false">ICSA-26-197-03</guid>
       <pubDate>Thu, 16 Jul 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-197-03 · Severity: HIGH · Vendor: NASA · CVSS: 7.5 · Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.</description>
+    </item>
+    <item>
+      <title>Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02</link>
+      <guid isPermaLink="false">ICSA-26-197-02</guid>
+      <pubDate>Thu, 16 Jul 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-197-02 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition.</description>
     </item>
     <item>
       <title>Rockwell Automation Arena</title>
@@ -800,20 +896,20 @@
       <description>CISA ICSMA-26-169-01 · Severity: MEDIUM · Vendor: Apollo Pharmacy · CVSS: 6.5 · Successful exploitation of these vulnerabilities could allow an attacker to obtain sensitive health-related information and prevent legitimate users from establishing a connection with the device.</description>
     </item>
     <item>
-      <title>AVer PTC cameras</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-01</link>
-      <guid isPermaLink="false">ICSA-26-169-01</guid>
-      <pubDate>Thu, 18 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-169-01 · Severity: CRITICAL · Vendor: AVer · CVSS: 9.8 · Successful exploitation of this vulnerability could allow arbitrary code execution.</description>
-    </item>
-    <item>
       <title>Rockwell Automation FactoryTalk Historian Site Edition</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-03</link>
       <guid isPermaLink="false">ICSA-26-169-03</guid>
       <pubDate>Thu, 18 Jun 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-169-03 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.7 · Successful exploitation of these vulnerabilities could allow an attacker to obtain a valid authentication token, perform a denial of service, or crash the system.</description>
+    </item>
+    <item>
+      <title>AVer PTC cameras</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-01</link>
+      <guid isPermaLink="false">ICSA-26-169-01</guid>
+      <pubDate>Thu, 18 Jun 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-169-01 · Severity: CRITICAL · Vendor: AVer · CVSS: 9.8 · Successful exploitation of this vulnerability could allow arbitrary code execution.</description>
     </item>
     <item>
       <title>Mitsubishi Electric Co.'s MELSEC iQ-F Series FX5-ENET/IP Ethernet Module</title>
@@ -840,20 +936,20 @@
       <description>CISA ICSA-26-167-05 · Severity: CRITICAL · Vendor: Rockwell Automation · CVSS: 9.4 · Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, account takeover, and cause loss of availability.</description>
     </item>
     <item>
-      <title>Rockwell Automation Logix 5370 &amp; 5570 Controllers Vulnerable To Denial of Service Via CIP</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-03</link>
-      <guid isPermaLink="false">ICSA-26-167-03</guid>
-      <pubDate>Tue, 16 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-167-03 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · Successful exploitation of this vulnerability could cause a denial-of-service condition that may result in a major nonrecoverable fault (MNRF).</description>
-    </item>
-    <item>
       <title>Rockwell Automation CompactLogix</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-04</link>
       <guid isPermaLink="false">ICSA-26-167-04</guid>
       <pubDate>Tue, 16 Jun 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-167-04 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition.</description>
+    </item>
+    <item>
+      <title>Rockwell Automation Logix 5370 &amp; 5570 Controllers Vulnerable To Denial of Service Via CIP</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-03</link>
+      <guid isPermaLink="false">ICSA-26-167-03</guid>
+      <pubDate>Tue, 16 Jun 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-167-03 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · Successful exploitation of this vulnerability could cause a denial-of-service condition that may result in a major nonrecoverable fault (MNRF).</description>
     </item>
     <item>
       <title>RSLinx Classic Third-Party Vulnerability</title>
@@ -870,102 +966,6 @@
       <pubDate>Tue, 16 Jun 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-167-01 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.0 · Successful exploitation of this vulnerability could result in an attacker executing privileged operations.</description>
-    </item>
-    <item>
-      <title>Naxclow IoT Platform</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-02</link>
-      <guid isPermaLink="false">ICSA-26-162-02</guid>
-      <pubDate>Thu, 11 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-162-02 · Severity: CRITICAL · Vendor: Naxclow · CVSS: 9.8 · Successful exploitation of these vulnerabilities could allow an attacker to impersonate devices, intercept or manipulate communications, harvest sensitive credentials at scale, or gain unauthorized access.</description>
-    </item>
-    <item>
-      <title>Brickcom Cameras</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-03</link>
-      <guid isPermaLink="false">ICSA-26-162-03</guid>
-      <pubDate>Thu, 11 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-162-03 · Severity: HIGH · Vendor: Brickcom · CVSS: 7.7 · Successful exploitation of these vulnerabilities could allow a remote unauthenticated attacker to gain unauthorized access to live video feeds, retrieve sensitive visual information from affected premises, and obtain administrative control of the device.</description>
-    </item>
-    <item>
-      <title>Yarbo Android/iOS Mobile Application and Cloud Infrastructure</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-01</link>
-      <guid isPermaLink="false">ICSA-26-162-01</guid>
-      <pubDate>Thu, 11 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-162-01 · Severity: CRITICAL · Vendor: Yarbo · CVSS: 9.8 · Successful exploitation of these vulnerabilities could allow an attacker to obtain hard-coded credentials, gain access to telemetry data, and potentially send operational commands to the robot fleet.</description>
-    </item>
-    <item>
-      <title>Impact of Linux Kernel vulnerabilities on B&amp;R products</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-06</link>
-      <guid isPermaLink="false">ICSA-26-174-06</guid>
-      <pubDate>Thu, 11 Jun 2026 00:30:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-174-06 · Severity: HIGH · Vendor: B&amp;R Industrial Automation GmbH · CVSS: 7.8 · B&amp;R is aware of publicly reported vulnerabilities affecting the Linux kernel versions shipped with the products listed as affected in the advisory. Successful local exploitation of these vulnerabilities could allow an attacker to escalate privileges on the affected system. Pub…</description>
-    </item>
-    <item>
-      <title>XZ Utils vulnerability impacting B&amp;R Products</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05</link>
-      <guid isPermaLink="false">ICSA-26-181-05</guid>
-      <pubDate>Wed, 10 Jun 2026 00:30:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-181-05 · Severity: HIGH · Vendor: B&amp;R Industrial Automation GmbH · CVSS: 7.5 · An update is available that resolves vulnerability in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the product to stop or corrupt memory data.</description>
-    </item>
-    <item>
-      <title>ABB Freelance Security Lock</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-05</link>
-      <guid isPermaLink="false">ICSA-26-174-05</guid>
-      <pubDate>Wed, 10 Jun 2026 00:30:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-174-05 · Severity: MEDIUM · Vendor: ABB · CVSS: 6.6 · ABB is aware of a vulnerability in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the product to stop or make the product inaccessible.</description>
-    </item>
-    <item>
-      <title>Schneider Electric EasyLogic T150 and Saitel DP RTU</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04</link>
-      <guid isPermaLink="false">ICSA-26-181-04</guid>
-      <pubDate>Tue, 09 Jun 2026 07:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-181-04 · Severity: HIGH · Vendor: Schneider Electric · CVSS: 7.5 · We strongly recommend the following industry cybersecurity best practices. * Locate control and safety system networks and remote devices behind firewalls and isolate them from the business network. * Install physical controls so no unauthorized personnel can access your indus…</description>
-    </item>
-    <item>
-      <title>Schneider Electric EcoStruxure IT Data Center Expert</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-03</link>
-      <guid isPermaLink="false">ICSA-26-181-03</guid>
-      <pubDate>Tue, 09 Jun 2026 07:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-181-03 · Severity: MEDIUM · Vendor: Schneider Electric · CVSS: 6.5 · We strongly recommend the following industry cybersecurity best practices. * Locate control and safety system networks and remote devices behind firewalls and isolate them from the business network. * Install physical controls so no unauthorized personnel can access your indus…</description>
-    </item>
-    <item>
-      <title>Schneider Electric PowerLogic P7</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-07</link>
-      <guid isPermaLink="false">ICSA-26-176-07</guid>
-      <pubDate>Tue, 09 Jun 2026 07:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-176-07 · Severity: HIGH · Vendor: Schneider Electric · CVSS: 7.5 · We strongly recommend the following industry cybersecurity best practices. https://www.se.com/us/en/download/document/7EN52-0390/ * Locate control and safety system networks and remote devices behind firewalls and isolate them from the business network. * Install physical cont…</description>
-    </item>
-    <item>
-      <title>Siemens Products using OpenSSL</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-03</link>
-      <guid isPermaLink="false">ICSA-26-174-03</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-174-03 · Severity: CRITICAL · Vendor: Siemens · CVSS: 9.8 · OpenSSL has published a stack based buffer overflow vulnerability that allows a remote attacker to cause a denial of service (DoS) or potentially allow for remote code execution. Siemens has released new versions for several affected products and recommends to update to the la…</description>
-    </item>
-    <item>
-      <title>Siemens SINEC INS</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-04</link>
-      <guid isPermaLink="false">ICSA-26-174-04</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-174-04 · Severity: HIGH · Vendor: Siemens · CVSS: 8.8 · SINEC INS before V1.0 SP2 Update 6 is affected by multiple vulnerabilities. Siemens has released a new version for SINEC INS and recommends to update to the latest version.</description>
-    </item>
-    <item>
-      <title>Siemens SIPROTEC 5 Using DIGSI5 Protocol</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-02</link>
-      <guid isPermaLink="false">ICSA-26-174-02</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-174-02 · Severity: MEDIUM · Vendor: Siemens · CVSS: 6.1 · SIPROTEC 5 is vulnerable to arbitrary file uploads by authenticated users using the DIGSI 5 protocol. This could allow an attacker to upload malicious configuration files, potentially causing a permanent denial of service condition. As a mitigation measure, users of the CP050…</description>
     </item>
   </channel>
 </rss>

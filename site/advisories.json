@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T19:43:59Z",
+  "generated_at": "2026-09-07T18:27:10Z",
   "source": {
     "name": "CISA CSAF OT feed (TLP:WHITE)",
     "url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/cisa-csaf-ot-feed-tlp-white.json",
@@ -7,6 +7,302 @@
   },
   "count": 120,
   "advisories": [
+    {
+      "id": "ICSA-26-246-08",
+      "title": "Tycon Systems TPDIN-Monitor-WEB3",
+      "published": "2026-09-03T06:00:00.000000Z",
+      "updated": "2026-09-03T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.8,
+      "vendors": [
+        "Tycon Systems"
+      ],
+      "products": [
+        "TPDIN-Monitor-WEB3"
+      ],
+      "cves": [
+        "CVE-2026-77847",
+        "CVE-2026-82712",
+        "CVE-2026-82684"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-08",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-246-08.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow for an attacker to perform a man-in-the-middle (MitM) attack, cause a factory reset, wipe credentials, or retrieve sensitive information."
+    },
+    {
+      "id": "ICSA-26-246-07",
+      "title": "Pyramid Solutions NetStaX EtherNet/IP Stack",
+      "published": "2026-09-03T06:00:00.000000Z",
+      "updated": "2026-09-03T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "CRITICAL",
+      "cvss": 9.8,
+      "vendors": [
+        "Pyramid Solutions"
+      ],
+      "products": [
+        "EtherNet/IP Adapter DLL Kit (EIPA)",
+        "EtherNet/IP Adapter DLL Kit with CIP Security (EIPA-SECURE)",
+        "EtherNet/IP Adapter Development Kit (EADK)",
+        "EtherNet/IP Adapter Development Kit with CIP Security (EADK-SECURE)",
+        "EtherNet/IP Scanner DLL Kit (EIPS)",
+        "EtherNet/IP Scanner DLL Kit with CIP Security (EIPS-SECURE)",
+        "EtherNet/IP Scanner Development Kit (ESDK)",
+        "EtherNet/IP Scanner Development Kit with CIP Security (ESDK-SECURE)"
+      ],
+      "cves": [
+        "CVE-2026-78012"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-07",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-246-07.json",
+      "summary": "Successful exploitation of this vulnerability could result in memory corruption, a device crash, or a potential remote attack vector without the originating device receiving a CIP error indicating that the request could not be processed."
+    },
+    {
+      "id": "ICSA-26-246-06",
+      "title": "Inductive Automation Ignition",
+      "published": "2026-09-03T06:00:00.000000Z",
+      "updated": "2026-09-03T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.8,
+      "vendors": [
+        "Inductive Automation"
+      ],
+      "products": [
+        "Ignition"
+      ],
+      "cves": [
+        "CVE-2026-77393"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-246-06.json",
+      "summary": "Successful exploitation of this vulnerability could allow any authenticated user to create projects."
+    },
+    {
+      "id": "ICSA-26-246-05",
+      "title": "Rockwell Automation 1756-ENBT Module",
+      "published": "2026-09-03T06:00:00.000000Z",
+      "updated": "2026-09-03T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.5,
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "products": [
+        "1756-ENBT module"
+      ],
+      "cves": [
+        "CVE-2025-10478"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-05",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-246-05.json",
+      "summary": "Successful exploitation of this vulnerability could crash the module. The device requires a restart to recover."
+    },
+    {
+      "id": "ICSA-26-246-04",
+      "title": "Rockwell Automation ArmorStart LT",
+      "published": "2026-09-03T06:00:00.000000Z",
+      "updated": "2026-09-03T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.5,
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "products": [
+        "ArmorStart LT"
+      ],
+      "cves": [
+        "CVE-2026-19471",
+        "CVE-2026-19472"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-04",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-246-04.json",
+      "summary": "Successful exploitation of these vulnerabilities could result in a loss of webserver availability or allow an attacker to inject malicious scripts that will be executed when other users access the affected page."
+    },
+    {
+      "id": "ICSA-26-246-03",
+      "title": "Rockwell Automation ControlFLASH",
+      "published": "2026-09-03T06:00:00.000000Z",
+      "updated": "2026-09-03T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.3,
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "products": [
+        "ControlFLASH"
+      ],
+      "cves": [
+        "CVE-2026-12663"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-246-03.json",
+      "summary": "Successful exploitation of this vulnerability could give an attacker the ability to run any commands or code of the attacker's choice on a target machine at the logged-in user's permission level."
+    },
+    {
+      "id": "ICSA-26-246-01",
+      "title": "OPCFoundation OPC UA LocalDiscoveryServer (LDS)",
+      "published": "2026-09-03T06:00:00.000000Z",
+      "updated": "2026-09-03T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "MEDIUM",
+      "cvss": 4.6,
+      "vendors": [
+        "OPCFoundation"
+      ],
+      "products": [
+        "UA-LDS-Installers"
+      ],
+      "cves": [
+        "CVE-2026-77477"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-246-01.json",
+      "summary": "Successful exploitation of this vulnerability could allow an attacker to take control of a high-privilege terminal during installation and run arbitrary commands."
+    },
+    {
+      "id": "ICSA-26-244-06",
+      "title": "Rockwell Automation Historian ME",
+      "published": "2026-09-01T06:00:00.000000Z",
+      "updated": "2026-09-01T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.0,
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "products": [
+        "Series B",
+        "Series C"
+      ],
+      "cves": [
+        "CVE-2025-12768",
+        "CVE-2026-12661"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-06",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-244-06.json",
+      "summary": "Successful exploitation of these vulnerabilities could crash the device being accessed; an out-of-bounds write condition may allow remote code execution."
+    },
+    {
+      "id": "ICSA-26-244-05",
+      "title": "Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix",
+      "published": "2026-09-01T06:00:00.000000Z",
+      "updated": "2026-09-01T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.5,
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "products": [
+        "ControlLogix 5580",
+        "GuardLogix 5580",
+        "CompactLogix 5380",
+        "Compact GuardLogix 5380",
+        "CompactLogix 5480"
+      ],
+      "cves": [
+        "CVE-2021-42260"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-05",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-244-05.json",
+      "summary": "CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities."
+    },
+    {
+      "id": "ICSA-26-244-04",
+      "title": "Rockwell Automation FactoryTalk Activation Manager",
+      "published": "2026-09-01T06:00:00.000000Z",
+      "updated": "2026-09-01T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.8,
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "products": [
+        "FactoryTalk Activation Manager"
+      ],
+      "cves": [
+        "CVE-2026-16675"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-244-04.json",
+      "summary": "CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities."
+    },
+    {
+      "id": "ICSA-26-244-03",
+      "title": "Rockwell Automation Logix Platform",
+      "published": "2026-09-01T06:00:00.000000Z",
+      "updated": "2026-09-01T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.5,
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "products": [
+        "ControlLogix 5580",
+        "CompactLogix 5380",
+        "GuardLogix 5580",
+        "Compact GuardLogix 5380"
+      ],
+      "cves": [
+        "CVE-2026-9637"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-244-03.json",
+      "summary": "CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities."
+    },
+    {
+      "id": "ICSA-26-244-02",
+      "title": "Rockwell Automation Redundancy Module Configuration Tool",
+      "published": "2026-09-01T06:00:00.000000Z",
+      "updated": "2026-09-01T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.3,
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "products": [
+        "Redundancy Module Configuration Tool"
+      ],
+      "cves": [
+        "CVE-2026-9633",
+        "CVE-2026-9634"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-244-02.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow for an attacker to escalate and execute processes with administrator privileges."
+    },
+    {
+      "id": "ICSA-26-244-01",
+      "title": "Rockwell Automation RSLinx Classic",
+      "published": "2026-09-01T06:00:00.000000Z",
+      "updated": "2026-09-01T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.6,
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "products": [
+        "RSLinx Classic"
+      ],
+      "cves": [
+        "CVE-2026-9621",
+        "CVE-2026-9622",
+        "CVE-2026-9624",
+        "CVE-2026-9625"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-244-01.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the affected product."
+    },
     {
       "id": "ICSA-26-239-05",
       "title": "Ebyte NA111-M",
@@ -804,6 +1100,27 @@
       "summary": "Successful exploitation of this vulnerability could allow an attacker to access sensitive information on the device."
     },
     {
+      "id": "ICSA-26-246-02",
+      "title": "IXON VPN Client",
+      "published": "2026-08-05T06:00:00.000000Z",
+      "updated": "2026-09-03T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "CRITICAL",
+      "cvss": 9.6,
+      "vendors": [
+        "IXON"
+      ],
+      "products": [
+        "VPN Client"
+      ],
+      "cves": [
+        "CVE-2026-75925"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-02",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-246-02.json",
+      "summary": "Successful exploitation of this vulnerability could allow an attacker to perform remote code execution on the computer running the client with elevated privileges."
+    },
+    {
       "id": "ICSMA-26-216-01",
       "title": "Thermo Fisher Applied Biosystems Genetic Analyzers",
       "published": "2026-08-04T06:00:00.000000Z",
@@ -1332,6 +1649,49 @@
       "summary": "Successful exploitation of this vulnerability could result in an attacker obtaining confidential information from the device."
     },
     {
+      "id": "ICSA-26-202-01",
+      "title": "Tycon Systems TPDIN-Monitor-WEB2 (Update A)",
+      "published": "2026-07-21T06:00:00.000000Z",
+      "updated": "2026-09-03T00:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "CRITICAL",
+      "cvss": 9.8,
+      "vendors": [
+        "Tycon Systems"
+      ],
+      "products": [
+        "TPDIN-Monitor-WEB2"
+      ],
+      "cves": [
+        "CVE-2026-61884",
+        "CVE-2026-55985"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-202-01.json",
+      "summary": "Successful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipment, which could present a physical safety risk."
+    },
+    {
+      "id": "ICSA-26-202-09",
+      "title": "Rockwell Automation 1734 POINT I/O (Update A)",
+      "published": "2026-07-21T06:00:00.000000Z",
+      "updated": "2026-09-01T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "LOW",
+      "cvss": 3.7,
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "products": [
+        "1734 POINT I/O"
+      ],
+      "cves": [
+        "CVE-2026-10573"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-09",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-202-09.json",
+      "summary": "Successful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product."
+    },
+    {
       "id": "ICSA-26-202-10",
       "title": "Rockwell Automation Studio 5000 Logix Designer",
       "published": "2026-07-21T06:00:00.000000Z",
@@ -1353,27 +1713,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-10",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-202-10.json",
       "summary": "Successful exploitation of these vulnerabilities could allow for a local attacker to execute arbitrary files, alter configurations, or execute arbitrary code."
-    },
-    {
-      "id": "ICSA-26-202-09",
-      "title": "Rockwell Automation 1734 POINT I/O",
-      "published": "2026-07-21T06:00:00.000000Z",
-      "updated": "2026-07-21T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.5,
-      "vendors": [
-        "Rockwell Automation"
-      ],
-      "products": [
-        "1734 POINT I/O"
-      ],
-      "cves": [
-        "CVE-2026-10573"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-09",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-202-09.json",
-      "summary": "Successful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product."
     },
     {
       "id": "ICSA-26-202-08",
@@ -1416,28 +1755,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-07",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-202-07.json",
       "summary": "Successful exploitation of this vulnerability could allow an attacker to impersonate an authorized user on the FTSP server, resulting in unauthorized access to system configurations."
-    },
-    {
-      "id": "ICSA-26-202-01",
-      "title": "Tycon Systems TPDIN-Monitor-WEB2",
-      "published": "2026-07-21T06:00:00.000000Z",
-      "updated": "2026-07-21T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "CRITICAL",
-      "cvss": 9.8,
-      "vendors": [
-        "Tycon Systems"
-      ],
-      "products": [
-        "TPDIN-Monitor-WEB2"
-      ],
-      "cves": [
-        "CVE-2026-61884",
-        "CVE-2026-55985"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-202-01.json",
-      "summary": "Successful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipment, which could present a physical safety risk."
     },
     {
       "id": "ICSA-26-209-07",
@@ -2499,318 +2816,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-02",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-176-02.json",
       "summary": "Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks."
-    },
-    {
-      "id": "ICSA-26-195-02",
-      "title": "ABB Ability Edgenius",
-      "published": "2026-06-25T00:30:00.000000Z",
-      "updated": "2026-07-14T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.8,
-      "vendors": [
-        "ABB"
-      ],
-      "products": [
-        "Gateway - bE100",
-        "Gateway - E3100C",
-        "Server - vE1000"
-      ],
-      "cves": [
-        "CVE-2026-31431"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-195-02.json",
-      "summary": "ABB is aware of public reports of a vulnerability CVE\u20112026\u201131431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a publicly reported vulnerability. CVE\u20112026\u201131431 (Copy Fail) is a Linux kernel vulnerability that may\u2026"
-    },
-    {
-      "id": "ICSA-26-174-07",
-      "title": "Hubbell Aclara Metrum Cellular Web Interface",
-      "published": "2026-06-23T06:00:00.000000Z",
-      "updated": "2026-06-23T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.5,
-      "vendors": [
-        "Hubbell"
-      ],
-      "products": [
-        "Aclara Metrum Cellular Web Interface"
-      ],
-      "cves": [
-        "CVE-2026-1840"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-07",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-174-07.json",
-      "summary": "Successful exploitation of this vulnerability could allow attackers to manipulate critical device settings and repeatedly disrupt operations, potentially causing a loss of communications to the device."
-    },
-    {
-      "id": "ICSA-26-195-01",
-      "title": "ABB Advant Master Online Builder",
-      "published": "2026-06-23T00:30:00.000000Z",
-      "updated": "2026-07-14T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "MEDIUM",
-      "cvss": 4.4,
-      "vendors": [
-        "ABB"
-      ],
-      "products": [
-        "Control Builder A",
-        "800xA for Advant Master"
-      ],
-      "cves": [
-        "CVE-2025-13162"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-195-01.json",
-      "summary": "ABB became aware of vulnerability in the products versions listed as affected in the advisory, where an incorrect version of Online Builder (ONB) was included in the media. An update is available that resolves the vulnerability, see details in Recommended immediate actions."
-    },
-    {
-      "id": "ICSA-26-169-02",
-      "title": "AzeoTech DAQFactory (Update A)",
-      "published": "2026-06-18T06:00:00.000000Z",
-      "updated": "2026-06-25T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.8,
-      "vendors": [
-        "AzeoTech"
-      ],
-      "products": [
-        "DAQFactory"
-      ],
-      "cves": [
-        "CVE-2026-12390",
-        "CVE-2026-12921"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-02",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-169-02.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to upload malicious .ctl files that may lead to arbitrary code execution."
-    },
-    {
-      "id": "ICSMA-26-169-01",
-      "title": "Apollo Pharmacy Blood Glucose Monitoring System APG-01 BT",
-      "published": "2026-06-18T06:00:00.000000Z",
-      "updated": "2026-06-18T06:00:00.000000Z",
-      "kind": "medical",
-      "severity": "MEDIUM",
-      "cvss": 6.5,
-      "vendors": [
-        "Apollo Pharmacy"
-      ],
-      "products": [
-        "Blood Glucose Monitoring System (Model No. APG-01 BT)"
-      ],
-      "cves": [
-        "CVE-2026-50034",
-        "CVE-2026-52866"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-169-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsma-26-169-01.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to obtain sensitive health-related information and prevent legitimate users from establishing a connection with the device."
-    },
-    {
-      "id": "ICSA-26-169-03",
-      "title": "Rockwell Automation FactoryTalk Historian Site Edition",
-      "published": "2026-06-18T06:00:00.000000Z",
-      "updated": "2026-06-18T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.7,
-      "vendors": [
-        "Rockwell Automation"
-      ],
-      "products": [
-        "FactoryTalk Historian SE"
-      ],
-      "cves": [
-        "CVE-2025-13036",
-        "CVE-2025-44019",
-        "CVE-2025-36539"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-03",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-169-03.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to obtain a valid authentication token, perform a denial of service, or crash the system."
-    },
-    {
-      "id": "ICSA-26-169-01",
-      "title": "AVer PTC cameras",
-      "published": "2026-06-18T06:00:00.000000Z",
-      "updated": "2026-06-18T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "CRITICAL",
-      "cvss": 9.8,
-      "vendors": [
-        "AVer"
-      ],
-      "products": [
-        "PTC500S",
-        "PTC115",
-        "PTC500+",
-        "PTC115+"
-      ],
-      "cves": [
-        "CVE-2026-40624"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-169-01.json",
-      "summary": "Successful exploitation of this vulnerability could allow arbitrary code execution."
-    },
-    {
-      "id": "ICSA-26-169-06",
-      "title": "Mitsubishi Electric Co.'s MELSEC iQ-F Series FX5-ENET/IP Ethernet Module",
-      "published": "2026-06-18T00:00:00.000000Z",
-      "updated": "2026-06-18T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.5,
-      "vendors": [
-        "Mitsubishi Electric"
-      ],
-      "products": [
-        "Mitsubishi Electric MELSEC iQ-F Series FX5-ENET/IP Ethernet Module FX5-ENET/IP"
-      ],
-      "cves": [
-        "CVE-2026-8806"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-06",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-169-06.json",
-      "summary": "Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition in the affected product by continuously sending a large number of communication packets to the Ethernet port of the product in a short period of time, incre\u2026"
-    },
-    {
-      "id": "ICSA-26-169-05",
-      "title": "Mitsubishi Electric MELSEC iQ-F Series",
-      "published": "2026-06-18T00:00:00.000000Z",
-      "updated": "2026-06-18T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.5,
-      "vendors": [
-        "Mitsubishi Electric"
-      ],
-      "products": [
-        "MELSEC iQ-F Series FX5-EIP EtherNet/IP Module FX5-EIP"
-      ],
-      "cves": [
-        "CVE-2026-8805"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-05",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-169-05.json",
-      "summary": "Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition in the affected product by rapidly establishing a large number of TCP connections to it, resulting in an inconsistency in the product's internal connection\u2026"
-    },
-    {
-      "id": "ICSA-26-167-05",
-      "title": "Rockwell Automation FLEX I/O EtherNet/IP Adapters",
-      "published": "2026-06-16T06:00:00.000000Z",
-      "updated": "2026-06-16T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "CRITICAL",
-      "cvss": 9.4,
-      "vendors": [
-        "Rockwell Automation"
-      ],
-      "products": [
-        "1794-AENTR",
-        "1794-AENTRXT"
-      ],
-      "cves": [
-        "CVE-2026-0646",
-        "CVE-2026-0647"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-167-05.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, account takeover, and cause loss of availability."
-    },
-    {
-      "id": "ICSA-26-167-04",
-      "title": "Rockwell Automation CompactLogix",
-      "published": "2026-06-16T06:00:00.000000Z",
-      "updated": "2026-06-16T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.5,
-      "vendors": [
-        "Rockwell Automation"
-      ],
-      "products": [
-        "CompactLogix 5370 L1",
-        "CompactLogix 5370 L2",
-        "CompactLogix 5370 L3"
-      ],
-      "cves": [
-        "CVE-2025-11694",
-        "CVE-2026-9307"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-04",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-167-04.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition."
-    },
-    {
-      "id": "ICSA-26-167-03",
-      "title": "Rockwell Automation Logix 5370 & 5570 Controllers Vulnerable To Denial of Service Via CIP",
-      "published": "2026-06-16T06:00:00.000000Z",
-      "updated": "2026-06-16T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.5,
-      "vendors": [
-        "Rockwell Automation"
-      ],
-      "products": [
-        "CompactLogix 5370",
-        "Compact GuardLogix 5370",
-        "ControlLogix 5570",
-        "GuardLogix 5570"
-      ],
-      "cves": [
-        "CVE-2026-11317"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-03",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-167-03.json",
-      "summary": "Successful exploitation of this vulnerability could cause a denial-of-service condition that may result in a major nonrecoverable fault (MNRF)."
-    },
-    {
-      "id": "ICSA-26-167-02",
-      "title": "RSLinx Classic Third-Party Vulnerability",
-      "published": "2026-06-16T06:00:00.000000Z",
-      "updated": "2026-06-16T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.5,
-      "vendors": [
-        "Rockwell Automation"
-      ],
-      "products": [
-        "RSLinx Classic"
-      ],
-      "cves": [
-        "CVE-2020-13573"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-167-02.json",
-      "summary": "Successful exploitation of this vulnerability can lead to a denial of service, where the application will become unresponsive and will not recover on its own."
-    },
-    {
-      "id": "ICSA-26-167-01",
-      "title": "Rockwell Automation FactoryTalk Analytics PavilionX",
-      "published": "2026-06-16T06:00:00.000000Z",
-      "updated": "2026-06-16T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.0,
-      "vendors": [
-        "Rockwell Automation"
-      ],
-      "products": [
-        "FactoryTalk Analytics PavilionX"
-      ],
-      "cves": [
-        "CVE-2025-14272"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-167-01.json",
-      "summary": "Successful exploitation of this vulnerability could result in an attacker executing privileged operations."
     }
   ]
 }

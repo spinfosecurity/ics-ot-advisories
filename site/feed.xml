@@ -5,8 +5,112 @@
     <link>https://spinfosecurity.github.io/ics-ot-advisories/</link>
     <description>Aggregated CISA ICS/OT security advisories for industrial control equipment maintainers.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2026 19:43:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 18:27:10 +0000</lastBuildDate>
     <atom:link href="https://spinfosecurity.github.io/ics-ot-advisories/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Tycon Systems TPDIN-Monitor-WEB3</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-08</link>
+      <guid isPermaLink="false">ICSA-26-246-08</guid>
+      <pubDate>Thu, 03 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-246-08 · Severity: HIGH · Vendor: Tycon Systems · CVSS: 8.8 · Successful exploitation of these vulnerabilities could allow for an attacker to perform a man-in-the-middle (MitM) attack, cause a factory reset, wipe credentials, or retrieve sensitive information.</description>
+    </item>
+    <item>
+      <title>Pyramid Solutions NetStaX EtherNet/IP Stack</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-07</link>
+      <guid isPermaLink="false">ICSA-26-246-07</guid>
+      <pubDate>Thu, 03 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-246-07 · Severity: CRITICAL · Vendor: Pyramid Solutions · CVSS: 9.8 · Successful exploitation of this vulnerability could result in memory corruption, a device crash, or a potential remote attack vector without the originating device receiving a CIP error indicating that the request could not be processed.</description>
+    </item>
+    <item>
+      <title>Inductive Automation Ignition</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06</link>
+      <guid isPermaLink="false">ICSA-26-246-06</guid>
+      <pubDate>Thu, 03 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-246-06 · Severity: HIGH · Vendor: Inductive Automation · CVSS: 8.8 · Successful exploitation of this vulnerability could allow any authenticated user to create projects.</description>
+    </item>
+    <item>
+      <title>Rockwell Automation 1756-ENBT Module</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-05</link>
+      <guid isPermaLink="false">ICSA-26-246-05</guid>
+      <pubDate>Thu, 03 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-246-05 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · Successful exploitation of this vulnerability could crash the module. The device requires a restart to recover.</description>
+    </item>
+    <item>
+      <title>Rockwell Automation ArmorStart LT</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-04</link>
+      <guid isPermaLink="false">ICSA-26-246-04</guid>
+      <pubDate>Thu, 03 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-246-04 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · Successful exploitation of these vulnerabilities could result in a loss of webserver availability or allow an attacker to inject malicious scripts that will be executed when other users access the affected page.</description>
+    </item>
+    <item>
+      <title>Rockwell Automation ControlFLASH</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03</link>
+      <guid isPermaLink="false">ICSA-26-246-03</guid>
+      <pubDate>Thu, 03 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-246-03 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.3 · Successful exploitation of this vulnerability could give an attacker the ability to run any commands or code of the attacker's choice on a target machine at the logged-in user's permission level.</description>
+    </item>
+    <item>
+      <title>OPCFoundation OPC UA LocalDiscoveryServer (LDS)</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-01</link>
+      <guid isPermaLink="false">ICSA-26-246-01</guid>
+      <pubDate>Thu, 03 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-246-01 · Severity: MEDIUM · Vendor: OPCFoundation · CVSS: 4.6 · Successful exploitation of this vulnerability could allow an attacker to take control of a high-privilege terminal during installation and run arbitrary commands.</description>
+    </item>
+    <item>
+      <title>Rockwell Automation Historian ME</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-06</link>
+      <guid isPermaLink="false">ICSA-26-244-06</guid>
+      <pubDate>Tue, 01 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-244-06 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 8.0 · Successful exploitation of these vulnerabilities could crash the device being accessed; an out-of-bounds write condition may allow remote code execution.</description>
+    </item>
+    <item>
+      <title>Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-05</link>
+      <guid isPermaLink="false">ICSA-26-244-05</guid>
+      <pubDate>Tue, 01 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-244-05 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.</description>
+    </item>
+    <item>
+      <title>Rockwell Automation FactoryTalk Activation Manager</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04</link>
+      <guid isPermaLink="false">ICSA-26-244-04</guid>
+      <pubDate>Tue, 01 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-244-04 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.8 · CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.</description>
+    </item>
+    <item>
+      <title>Rockwell Automation Logix Platform</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03</link>
+      <guid isPermaLink="false">ICSA-26-244-03</guid>
+      <pubDate>Tue, 01 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-244-03 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.</description>
+    </item>
+    <item>
+      <title>Rockwell Automation Redundancy Module Configuration Tool</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02</link>
+      <guid isPermaLink="false">ICSA-26-244-02</guid>
+      <pubDate>Tue, 01 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-244-02 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.3 · Successful exploitation of these vulnerabilities could allow for an attacker to escalate and execute processes with administrator privileges.</description>
+    </item>
+    <item>
+      <title>Rockwell Automation RSLinx Classic</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01</link>
+      <guid isPermaLink="false">ICSA-26-244-01</guid>
+      <pubDate>Tue, 01 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-244-01 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 8.6 · Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition on the affected product.</description>
+    </item>
     <item>
       <title>Ebyte NA111-M</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-05</link>
@@ -280,6 +384,14 @@
       <description>CISA ICSA-26-218-02 · Severity: MEDIUM · Vendor: Johnson Controls Inc. · CVSS: 4.1 · Successful exploitation of this vulnerability could allow an attacker to access sensitive information on the device.</description>
     </item>
     <item>
+      <title>IXON VPN Client</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-02</link>
+      <guid isPermaLink="false">ICSA-26-246-02</guid>
+      <pubDate>Wed, 05 Aug 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-246-02 · Severity: CRITICAL · Vendor: IXON · CVSS: 9.6 · Successful exploitation of this vulnerability could allow an attacker to perform remote code execution on the computer running the client with elevated privileges.</description>
+    </item>
+    <item>
       <title>Thermo Fisher Applied Biosystems Genetic Analyzers</title>
       <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01</link>
       <guid isPermaLink="false">ICSMA-26-216-01</guid>
@@ -456,20 +568,28 @@
       <description>CISA ICSA-26-204-02 · Severity: LOW · Vendor: Johnson Controls · CVSS: 3.3 · Successful exploitation of this vulnerability could result in an attacker obtaining confidential information from the device.</description>
     </item>
     <item>
+      <title>Tycon Systems TPDIN-Monitor-WEB2 (Update A)</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01</link>
+      <guid isPermaLink="false">ICSA-26-202-01</guid>
+      <pubDate>Tue, 21 Jul 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-202-01 · Severity: CRITICAL · Vendor: Tycon Systems · CVSS: 9.8 · Successful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipment, which could present a physical safety risk.</description>
+    </item>
+    <item>
+      <title>Rockwell Automation 1734 POINT I/O (Update A)</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-09</link>
+      <guid isPermaLink="false">ICSA-26-202-09</guid>
+      <pubDate>Tue, 21 Jul 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-202-09 · Severity: LOW · Vendor: Rockwell Automation · CVSS: 3.7 · Successful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product.</description>
+    </item>
+    <item>
       <title>Rockwell Automation Studio 5000 Logix Designer</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-10</link>
       <guid isPermaLink="false">ICSA-26-202-10</guid>
       <pubDate>Tue, 21 Jul 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-202-10 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · Successful exploitation of these vulnerabilities could allow for a local attacker to execute arbitrary files, alter configurations, or execute arbitrary code.</description>
-    </item>
-    <item>
-      <title>Rockwell Automation 1734 POINT I/O</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-09</link>
-      <guid isPermaLink="false">ICSA-26-202-09</guid>
-      <pubDate>Tue, 21 Jul 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-202-09 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · Successful exploitation of this vulnerability could allow for an attacker to cause a denial-of-service condition on the product.</description>
     </item>
     <item>
       <title>Rockwell Automation 1718-AENTR/1719-AENTR</title>
@@ -486,14 +606,6 @@
       <pubDate>Tue, 21 Jul 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-202-07 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.8 · Successful exploitation of this vulnerability could allow an attacker to impersonate an authorized user on the FTSP server, resulting in unauthorized access to system configurations.</description>
-    </item>
-    <item>
-      <title>Tycon Systems TPDIN-Monitor-WEB2</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-01</link>
-      <guid isPermaLink="false">ICSA-26-202-01</guid>
-      <pubDate>Tue, 21 Jul 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-202-01 · Severity: CRITICAL · Vendor: Tycon Systems · CVSS: 9.8 · Successful exploitation of these vulnerabilities could result in an attacker accessing sensitive credentials, disrupting connected infrastructure, or manipulating physical equipment, which could present a physical safety risk.</description>
     </item>
     <item>
       <title>ABB KNX Update Tool</title>
@@ -854,118 +966,6 @@
       <pubDate>Thu, 25 Jun 2026 05:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-176-02 · Severity: CRITICAL · Vendor: EVoke Systems · CVSS: 9.4 · Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks.</description>
-    </item>
-    <item>
-      <title>ABB Ability Edgenius</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02</link>
-      <guid isPermaLink="false">ICSA-26-195-02</guid>
-      <pubDate>Thu, 25 Jun 2026 00:30:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-195-02 · Severity: HIGH · Vendor: ABB · CVSS: 7.8 · ABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a publicly reported vulnerability. CVE‑2026‑31431 (Copy Fail) is a Linux kernel vulnerability that may…</description>
-    </item>
-    <item>
-      <title>Hubbell Aclara Metrum Cellular Web Interface</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-07</link>
-      <guid isPermaLink="false">ICSA-26-174-07</guid>
-      <pubDate>Tue, 23 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-174-07 · Severity: HIGH · Vendor: Hubbell · CVSS: 7.5 · Successful exploitation of this vulnerability could allow attackers to manipulate critical device settings and repeatedly disrupt operations, potentially causing a loss of communications to the device.</description>
-    </item>
-    <item>
-      <title>ABB Advant Master Online Builder</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01</link>
-      <guid isPermaLink="false">ICSA-26-195-01</guid>
-      <pubDate>Tue, 23 Jun 2026 00:30:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-195-01 · Severity: MEDIUM · Vendor: ABB · CVSS: 4.4 · ABB became aware of vulnerability in the products versions listed as affected in the advisory, where an incorrect version of Online Builder (ONB) was included in the media. An update is available that resolves the vulnerability, see details in Recommended immediate actions.</description>
-    </item>
-    <item>
-      <title>AzeoTech DAQFactory (Update A)</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-02</link>
-      <guid isPermaLink="false">ICSA-26-169-02</guid>
-      <pubDate>Thu, 18 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-169-02 · Severity: HIGH · Vendor: AzeoTech · CVSS: 7.8 · Successful exploitation of these vulnerabilities could allow an attacker to upload malicious .ctl files that may lead to arbitrary code execution.</description>
-    </item>
-    <item>
-      <title>Apollo Pharmacy Blood Glucose Monitoring System APG-01 BT</title>
-      <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-169-01</link>
-      <guid isPermaLink="false">ICSMA-26-169-01</guid>
-      <pubDate>Thu, 18 Jun 2026 06:00:00 +0000</pubDate>
-      <category>medical</category>
-      <description>CISA ICSMA-26-169-01 · Severity: MEDIUM · Vendor: Apollo Pharmacy · CVSS: 6.5 · Successful exploitation of these vulnerabilities could allow an attacker to obtain sensitive health-related information and prevent legitimate users from establishing a connection with the device.</description>
-    </item>
-    <item>
-      <title>Rockwell Automation FactoryTalk Historian Site Edition</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-03</link>
-      <guid isPermaLink="false">ICSA-26-169-03</guid>
-      <pubDate>Thu, 18 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-169-03 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.7 · Successful exploitation of these vulnerabilities could allow an attacker to obtain a valid authentication token, perform a denial of service, or crash the system.</description>
-    </item>
-    <item>
-      <title>AVer PTC cameras</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-01</link>
-      <guid isPermaLink="false">ICSA-26-169-01</guid>
-      <pubDate>Thu, 18 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-169-01 · Severity: CRITICAL · Vendor: AVer · CVSS: 9.8 · Successful exploitation of this vulnerability could allow arbitrary code execution.</description>
-    </item>
-    <item>
-      <title>Mitsubishi Electric Co.'s MELSEC iQ-F Series FX5-ENET/IP Ethernet Module</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-06</link>
-      <guid isPermaLink="false">ICSA-26-169-06</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-169-06 · Severity: HIGH · Vendor: Mitsubishi Electric · CVSS: 7.5 · Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition in the affected product by continuously sending a large number of communication packets to the Ethernet port of the product in a short period of time, incre…</description>
-    </item>
-    <item>
-      <title>Mitsubishi Electric MELSEC iQ-F Series</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-05</link>
-      <guid isPermaLink="false">ICSA-26-169-05</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-169-05 · Severity: HIGH · Vendor: Mitsubishi Electric · CVSS: 7.5 · Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition in the affected product by rapidly establishing a large number of TCP connections to it, resulting in an inconsistency in the product's internal connection…</description>
-    </item>
-    <item>
-      <title>Rockwell Automation FLEX I/O EtherNet/IP Adapters</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05</link>
-      <guid isPermaLink="false">ICSA-26-167-05</guid>
-      <pubDate>Tue, 16 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-167-05 · Severity: CRITICAL · Vendor: Rockwell Automation · CVSS: 9.4 · Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, account takeover, and cause loss of availability.</description>
-    </item>
-    <item>
-      <title>Rockwell Automation CompactLogix</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-04</link>
-      <guid isPermaLink="false">ICSA-26-167-04</guid>
-      <pubDate>Tue, 16 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-167-04 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition.</description>
-    </item>
-    <item>
-      <title>Rockwell Automation Logix 5370 &amp; 5570 Controllers Vulnerable To Denial of Service Via CIP</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-03</link>
-      <guid isPermaLink="false">ICSA-26-167-03</guid>
-      <pubDate>Tue, 16 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-167-03 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · Successful exploitation of this vulnerability could cause a denial-of-service condition that may result in a major nonrecoverable fault (MNRF).</description>
-    </item>
-    <item>
-      <title>RSLinx Classic Third-Party Vulnerability</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02</link>
-      <guid isPermaLink="false">ICSA-26-167-02</guid>
-      <pubDate>Tue, 16 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-167-02 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.5 · Successful exploitation of this vulnerability can lead to a denial of service, where the application will become unresponsive and will not recover on its own.</description>
-    </item>
-    <item>
-      <title>Rockwell Automation FactoryTalk Analytics PavilionX</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-01</link>
-      <guid isPermaLink="false">ICSA-26-167-01</guid>
-      <pubDate>Tue, 16 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-167-01 · Severity: HIGH · Vendor: Rockwell Automation · CVSS: 7.0 · Successful exploitation of this vulnerability could result in an attacker executing privileged operations.</description>
     </item>
   </channel>
 </rss>

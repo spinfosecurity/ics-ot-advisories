@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T18:27:10Z",
+  "generated_at": "2026-09-14T18:56:07Z",
   "source": {
     "name": "CISA CSAF OT feed (TLP:WHITE)",
     "url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/cisa-csaf-ot-feed-tlp-white.json",
@@ -7,6 +7,127 @@
   },
   "count": 120,
   "advisories": [
+    {
+      "id": "ICSA-26-254-01",
+      "title": "CISA Malcolm",
+      "published": "2026-09-11T06:00:00.000000Z",
+      "updated": "2026-09-11T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.8,
+      "vendors": [
+        "CISA"
+      ],
+      "products": [
+        "Malcolm"
+      ],
+      "cves": [
+        "CVE-2026-90443",
+        "CVE-2026-90444",
+        "CVE-2026-90445",
+        "CVE-2026-90446",
+        "CVE-2026-90447",
+        "CVE-2026-90448",
+        "CVE-2026-90449",
+        "CVE-2026-90450",
+        "CVE-2026-90451",
+        "CVE-2026-90452",
+        "CVE-2026-90453",
+        "CVE-2026-90454"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-254-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-254-01.json",
+      "summary": "CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities."
+    },
+    {
+      "id": "ICSMA-26-253-02",
+      "title": "Orthanc DICOM Server",
+      "published": "2026-09-10T06:00:00.000000Z",
+      "updated": "2026-09-10T06:00:00.000000Z",
+      "kind": "medical",
+      "severity": "HIGH",
+      "cvss": 8.1,
+      "vendors": [
+        "Orthanc"
+      ],
+      "products": [
+        "DICOM Server"
+      ],
+      "cves": [
+        "CVE-2026-87020"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsma-26-253-02.json",
+      "summary": "Successful exploitation of this vulnerability could allow an authenticated remote attacker to write past the end of a heap allocation when Orthanc decodes an attacker-supplied PNG or JPEG image, resulting in a crash of the Orthanc process and a denial-of-service condition."
+    },
+    {
+      "id": "ICSMA-26-253-01",
+      "title": "NextGen Healthcare Mirth Connect",
+      "published": "2026-09-10T06:00:00.000000Z",
+      "updated": "2026-09-10T06:00:00.000000Z",
+      "kind": "medical",
+      "severity": "HIGH",
+      "cvss": 8.3,
+      "vendors": [
+        "NextGen Healthcare"
+      ],
+      "products": [
+        "Mirth Connect"
+      ],
+      "cves": [
+        "CVE-2026-82583",
+        "CVE-2026-78224",
+        "CVE-2026-82578"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsma-26-253-01.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to exfiltrate date or cause a denial-of-service condition."
+    },
+    {
+      "id": "ICSA-26-253-01",
+      "title": "AVEVA Pipeline Integrity Monitor",
+      "published": "2026-09-10T06:00:00.000000Z",
+      "updated": "2026-09-10T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.4,
+      "vendors": [
+        "AVEVA"
+      ],
+      "products": [
+        "Pipeline Integrity Monitor"
+      ],
+      "cves": [
+        "CVE-2026-81821",
+        "CVE-2026-81822",
+        "CVE-2026-81823",
+        "CVE-2026-81824"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-253-01.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session."
+    },
+    {
+      "id": "ICSA-26-251-01",
+      "title": "CareCam Pro IP Cameras",
+      "published": "2026-09-08T06:00:00.000000Z",
+      "updated": "2026-09-08T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "MEDIUM",
+      "cvss": 6.8,
+      "vendors": [
+        "CareCam"
+      ],
+      "products": [
+        "ANJIA AJL33PC0801 Firmware"
+      ],
+      "cves": [
+        "CVE-2026-85083"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-251-01.json",
+      "summary": "Successful exploitation of this vulnerability could allow an attacker to take full control of the device."
+    },
     {
       "id": "ICSA-26-246-08",
       "title": "Tycon Systems TPDIN-Monitor-WEB3",
@@ -168,7 +289,7 @@
       "id": "ICSA-26-244-06",
       "title": "Rockwell Automation Historian ME",
       "published": "2026-09-01T06:00:00.000000Z",
-      "updated": "2026-09-01T06:00:00.000000Z",
+      "updated": "2026-09-09T06:00:00.000000Z",
       "kind": "advisory",
       "severity": "HIGH",
       "cvss": 8.0,
@@ -943,26 +1064,27 @@
       "summary": "Parasolid is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released new versions for the affected products and\u2026"
     },
     {
-      "id": "ICSA-26-225-10",
-      "title": "Siemens Parasolid",
+      "id": "ICSA-26-225-09",
+      "title": "Siemens Siveillance Video",
       "published": "2026-08-11T00:00:00.000000Z",
       "updated": "2026-08-13T06:00:00.000000Z",
       "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.8,
+      "severity": "CRITICAL",
+      "cvss": 9.1,
       "vendors": [
         "Siemens"
       ],
       "products": [
-        "Parasolid V38.0",
-        "Parasolid V38.1"
+        "Siveillance Video V2023 R3",
+        "Siveillance Video V2024 R1",
+        "Siveillance Video V2025"
       ],
       "cves": [
-        "CVE-2026-64629"
+        "CVE-2026-3014"
       ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-10",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-225-10.json",
-      "summary": "Parasolid is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released new versions for the affected products and\u2026"
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-09",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-225-09.json",
+      "summary": "Siveillance Video Management Servers contains a vulnerability that could allow a Remote Code Execution attack. Siemens has released new versions for the affected products and recommends to update to the latest versions."
     },
     {
       "id": "ICSA-26-225-08",
@@ -1103,7 +1225,7 @@
       "id": "ICSA-26-246-02",
       "title": "IXON VPN Client",
       "published": "2026-08-05T06:00:00.000000Z",
-      "updated": "2026-09-03T06:00:00.000000Z",
+      "updated": "2026-09-09T06:00:00.000000Z",
       "kind": "advisory",
       "severity": "CRITICAL",
       "cvss": 9.6,
@@ -2383,6 +2505,32 @@
       "summary": "Successful exploitation of these vulnerabilities could lead to privilege escalation, or result in a denial-of-service attack."
     },
     {
+      "id": "ICSA-26-183-01",
+      "title": "ST Engineering iDirect iQ-Series Terminals (Update A)",
+      "published": "2026-07-02T06:00:00.000000Z",
+      "updated": "2026-09-10T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.8,
+      "vendors": [
+        "ST Engineering iDirect"
+      ],
+      "products": [
+        "Evolution iQ\u2011Series terminals",
+        "3315\u2011Series terminals",
+        "9\u2011Series terminals"
+      ],
+      "cves": [
+        "CVE-2026-38059",
+        "CVE-2026-38057",
+        "CVE-2026-38056",
+        "CVE-2026-38058"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-183-01.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition."
+    },
+    {
       "id": "ICSA-26-183-02",
       "title": "CubeSpace CW0057 Reaction Wheel",
       "published": "2026-07-02T06:00:00.000000Z",
@@ -2402,30 +2550,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-183-02.json",
       "summary": "Successful exploitation of this vulnerability could allow an attacker to upload arbitrary malicious firmware to the device."
-    },
-    {
-      "id": "ICSA-26-183-01",
-      "title": "ST Engineering iDirect iQ-Series Terminals",
-      "published": "2026-07-02T06:00:00.000000Z",
-      "updated": "2026-07-02T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 8.1,
-      "vendors": [
-        "ST Engineering iDirect"
-      ],
-      "products": [
-        "Evolution iQ\u2011Series terminals",
-        "3315\u2011Series terminals",
-        "9\u2011Series terminals"
-      ],
-      "cves": [
-        "CVE-2026-38059",
-        "CVE-2026-38057"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-183-01.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition."
     },
     {
       "id": "ICSA-26-183-03",
@@ -2702,120 +2826,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-06",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-176-06.json",
       "summary": "Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code."
-    },
-    {
-      "id": "ICSA-26-176-05",
-      "title": "H.VIEW HV-500S6 IP Camera",
-      "published": "2026-06-25T06:00:00.000000Z",
-      "updated": "2026-06-25T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.2,
-      "vendors": [
-        "H.VIEW"
-      ],
-      "products": [
-        "HV-500S6 IP Camera"
-      ],
-      "cves": [
-        "CVE-2026-55975",
-        "CVE-2026-56414"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-05",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-176-05.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code and upload malicious files to the affected device."
-    },
-    {
-      "id": "ICSA-26-176-04",
-      "title": "Daktronics Controller Firmware",
-      "published": "2026-06-25T06:00:00.000000Z",
-      "updated": "2026-06-25T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 8.1,
-      "vendors": [
-        "Daktronics"
-      ],
-      "products": [
-        "VFC-DMP-5000",
-        "DMP-5000",
-        "DMP-8000"
-      ],
-      "cves": [
-        "CVE-2026-28701",
-        "CVE-2026-33560",
-        "CVE-2026-31928"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-04",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-176-04.json",
-      "summary": "Successful exploitation of these vulnerabilities could could provide an unauthenticated user with complete root-level access and control of the system."
-    },
-    {
-      "id": "ICSA-26-176-03",
-      "title": "Horner Automation Cscape",
-      "published": "2026-06-25T06:00:00.000000Z",
-      "updated": "2026-06-25T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.8,
-      "vendors": [
-        "Horner Automation"
-      ],
-      "products": [
-        "Cscape"
-      ],
-      "cves": [
-        "CVE-2026-12897"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-03",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-176-03.json",
-      "summary": "Successful exploitation of this vulnerability could allow a local attacker to disclose information and execute arbitrary code."
-    },
-    {
-      "id": "ICSA-26-176-01",
-      "title": "Yokogawa FAST/TOOLS and CI Server",
-      "published": "2026-06-25T06:00:00.000000Z",
-      "updated": "2026-06-25T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.5,
-      "vendors": [
-        "Yokogawa"
-      ],
-      "products": [
-        "FAST/TOOLS",
-        "Collaborative Information Server (CI Server)"
-      ],
-      "cves": [
-        "CVE-2026-11833"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-176-01.json",
-      "summary": "Successful exploitation of this vulnerability may return a response containing the CI Server setting information."
-    },
-    {
-      "id": "ICSA-26-176-02",
-      "title": "EVoke Systems Charging Station Management System",
-      "published": "2026-06-25T05:00:00.000000Z",
-      "updated": "2026-06-25T05:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "CRITICAL",
-      "cvss": 9.4,
-      "vendors": [
-        "EVoke Systems"
-      ],
-      "products": [
-        "EVoke CSMS"
-      ],
-      "cves": [
-        "CVE-2026-40702",
-        "CVE-2026-50176",
-        "CVE-2026-54479",
-        "CVE-2026-44622"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-02",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-176-02.json",
-      "summary": "Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks."
     }
   ]
 }

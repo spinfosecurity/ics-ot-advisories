@@ -5,8 +5,48 @@
     <link>https://spinfosecurity.github.io/ics-ot-advisories/</link>
     <description>Aggregated CISA ICS/OT security advisories for industrial control equipment maintainers.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Sep 2026 18:27:10 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 18:56:07 +0000</lastBuildDate>
     <atom:link href="https://spinfosecurity.github.io/ics-ot-advisories/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>CISA Malcolm</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-254-01</link>
+      <guid isPermaLink="false">ICSA-26-254-01</guid>
+      <pubDate>Fri, 11 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-254-01 · Severity: HIGH · Vendor: CISA · CVSS: 8.8 · CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.</description>
+    </item>
+    <item>
+      <title>Orthanc DICOM Server</title>
+      <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02</link>
+      <guid isPermaLink="false">ICSMA-26-253-02</guid>
+      <pubDate>Thu, 10 Sep 2026 06:00:00 +0000</pubDate>
+      <category>medical</category>
+      <description>CISA ICSMA-26-253-02 · Severity: HIGH · Vendor: Orthanc · CVSS: 8.1 · Successful exploitation of this vulnerability could allow an authenticated remote attacker to write past the end of a heap allocation when Orthanc decodes an attacker-supplied PNG or JPEG image, resulting in a crash of the Orthanc process and a denial-of-service condition.</description>
+    </item>
+    <item>
+      <title>NextGen Healthcare Mirth Connect</title>
+      <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01</link>
+      <guid isPermaLink="false">ICSMA-26-253-01</guid>
+      <pubDate>Thu, 10 Sep 2026 06:00:00 +0000</pubDate>
+      <category>medical</category>
+      <description>CISA ICSMA-26-253-01 · Severity: HIGH · Vendor: NextGen Healthcare · CVSS: 8.3 · Successful exploitation of these vulnerabilities could allow an attacker to exfiltrate date or cause a denial-of-service condition.</description>
+    </item>
+    <item>
+      <title>AVEVA Pipeline Integrity Monitor</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01</link>
+      <guid isPermaLink="false">ICSA-26-253-01</guid>
+      <pubDate>Thu, 10 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-253-01 · Severity: HIGH · Vendor: AVEVA · CVSS: 8.4 · Successful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session.</description>
+    </item>
+    <item>
+      <title>CareCam Pro IP Cameras</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01</link>
+      <guid isPermaLink="false">ICSA-26-251-01</guid>
+      <pubDate>Tue, 08 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-251-01 · Severity: MEDIUM · Vendor: CareCam · CVSS: 6.8 · Successful exploitation of this vulnerability could allow an attacker to take full control of the device.</description>
+    </item>
     <item>
       <title>Tycon Systems TPDIN-Monitor-WEB3</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-08</link>
@@ -328,12 +368,12 @@
       <description>CISA ICSA-26-225-10 · Severity: HIGH · Vendor: Siemens · CVSS: 7.8 · Parasolid is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released new versions for the affected products and…</description>
     </item>
     <item>
-      <title>Siemens Parasolid</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-10</link>
-      <guid isPermaLink="false">ICSA-26-225-10</guid>
+      <title>Siemens Siveillance Video</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-09</link>
+      <guid isPermaLink="false">ICSA-26-225-09</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
       <category>advisory</category>
-      <description>CISA ICSA-26-225-10 · Severity: HIGH · Vendor: Siemens · CVSS: 7.8 · Parasolid is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released new versions for the affected products and…</description>
+      <description>CISA ICSA-26-225-09 · Severity: CRITICAL · Vendor: Siemens · CVSS: 9.1 · Siveillance Video Management Servers contains a vulnerability that could allow a Remote Code Execution attack. Siemens has released new versions for the affected products and recommends to update to the latest versions.</description>
     </item>
     <item>
       <title>Siemens Desigo DXR and PXC Controllers</title>
@@ -816,20 +856,20 @@
       <description>CISA ICSA-26-188-01 · Severity: CRITICAL · Vendor: Hydro-Québec · CVSS: 9.8 · Successful exploitation of these vulnerabilities could lead to privilege escalation, or result in a denial-of-service attack.</description>
     </item>
     <item>
+      <title>ST Engineering iDirect iQ-Series Terminals (Update A)</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01</link>
+      <guid isPermaLink="false">ICSA-26-183-01</guid>
+      <pubDate>Thu, 02 Jul 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-183-01 · Severity: HIGH · Vendor: ST Engineering iDirect · CVSS: 8.8 · Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition.</description>
+    </item>
+    <item>
       <title>CubeSpace CW0057 Reaction Wheel</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02</link>
       <guid isPermaLink="false">ICSA-26-183-02</guid>
       <pubDate>Thu, 02 Jul 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-183-02 · Severity: MEDIUM · Vendor: CubeSpace · CVSS: 6.1 · Successful exploitation of this vulnerability could allow an attacker to upload arbitrary malicious firmware to the device.</description>
-    </item>
-    <item>
-      <title>ST Engineering iDirect iQ-Series Terminals</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01</link>
-      <guid isPermaLink="false">ICSA-26-183-01</guid>
-      <pubDate>Thu, 02 Jul 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-183-01 · Severity: HIGH · Vendor: ST Engineering iDirect · CVSS: 8.1 · Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition.</description>
     </item>
     <item>
       <title>Gardyn IoT Hub</title>
@@ -926,46 +966,6 @@
       <pubDate>Thu, 25 Jun 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-176-06 · Severity: HIGH · Vendor: Delta Electronics · CVSS: 7.8 · Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code.</description>
-    </item>
-    <item>
-      <title>H.VIEW HV-500S6 IP Camera</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-05</link>
-      <guid isPermaLink="false">ICSA-26-176-05</guid>
-      <pubDate>Thu, 25 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-176-05 · Severity: HIGH · Vendor: H.VIEW · CVSS: 7.2 · Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code and upload malicious files to the affected device.</description>
-    </item>
-    <item>
-      <title>Daktronics Controller Firmware</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-04</link>
-      <guid isPermaLink="false">ICSA-26-176-04</guid>
-      <pubDate>Thu, 25 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-176-04 · Severity: HIGH · Vendor: Daktronics · CVSS: 8.1 · Successful exploitation of these vulnerabilities could could provide an unauthenticated user with complete root-level access and control of the system.</description>
-    </item>
-    <item>
-      <title>Horner Automation Cscape</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-03</link>
-      <guid isPermaLink="false">ICSA-26-176-03</guid>
-      <pubDate>Thu, 25 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-176-03 · Severity: HIGH · Vendor: Horner Automation · CVSS: 7.8 · Successful exploitation of this vulnerability could allow a local attacker to disclose information and execute arbitrary code.</description>
-    </item>
-    <item>
-      <title>Yokogawa FAST/TOOLS and CI Server</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-01</link>
-      <guid isPermaLink="false">ICSA-26-176-01</guid>
-      <pubDate>Thu, 25 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-176-01 · Severity: HIGH · Vendor: Yokogawa · CVSS: 7.5 · Successful exploitation of this vulnerability may return a response containing the CI Server setting information.</description>
-    </item>
-    <item>
-      <title>EVoke Systems Charging Station Management System</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-02</link>
-      <guid isPermaLink="false">ICSA-26-176-02</guid>
-      <pubDate>Thu, 25 Jun 2026 05:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-176-02 · Severity: CRITICAL · Vendor: EVoke Systems · CVSS: 9.4 · Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks.</description>
     </item>
   </channel>
 </rss>

@@ -5,8 +5,56 @@
     <link>https://spinfosecurity.github.io/ics-ot-advisories/</link>
     <description>Aggregated CISA ICS/OT security advisories for industrial control equipment maintainers.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 18:56:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 18:57:24 +0000</lastBuildDate>
     <atom:link href="https://spinfosecurity.github.io/ics-ot-advisories/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bransys ELD</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01</link>
+      <guid isPermaLink="false">ICSA-26-260-01</guid>
+      <pubDate>Thu, 17 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-260-01 · Severity: HIGH · Vendor: Bransys · CVSS: 7.5 · Successful exploitation of these vulnerabilities could allow unauthorized access to telemetry data and firmware.</description>
+    </item>
+    <item>
+      <title>Mitsubishi Electric GX Works3 and Motion Control Settings</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02</link>
+      <guid isPermaLink="false">ICSA-26-260-02</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-260-02 · Severity: HIGH · Vendor: Mitsubishi Electric · CVSS: 8.8 · Successful exploitation of this vulnerability could allow a local attacker to successfully authenticate even with an invalid block password by executing the affected product and modify part of the executable module in memory, and thereby allows the attacker to view, tamper wit…</description>
+    </item>
+    <item>
+      <title>CareCam CM2507</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-08</link>
+      <guid isPermaLink="false">ICSA-26-258-08</guid>
+      <pubDate>Tue, 15 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-258-08 · Severity: HIGH · Vendor: CareCam · CVSS: 7.5 · Successful exploitation of these vulnerabilities could allow an attacker to access live video and sensitive device information, enable unauthorized services, execute arbitrary code, modify device operation, and recover stored credentials.</description>
+    </item>
+    <item>
+      <title>mySCADA myPRO Manager</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-03</link>
+      <guid isPermaLink="false">ICSA-26-258-03</guid>
+      <pubDate>Tue, 15 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-258-03 · Severity: CRITICAL · Vendor: mySCADA Technologies · CVSS: 9.8 · Successful exploitation of these vulnerabilities could allow an attacker to access privileged management functions or send arbitrary SMS messages through the connected GSM modem.</description>
+    </item>
+    <item>
+      <title>Wärtsilä FOS-Onboard</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-02</link>
+      <guid isPermaLink="false">ICSA-26-258-02</guid>
+      <pubDate>Tue, 15 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-258-02 · Severity: CRITICAL · Vendor: Wärtsilä · CVSS: 9.1 · Successful exploitation of these vulnerabilities could allow an attacker to deliver an unauthorized update, execute code, or extract credentials to allow the attacker to impersonate a privileged client.</description>
+    </item>
+    <item>
+      <title>Digital Watchdog VMAX DVR and NVR Product Lineups</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-01</link>
+      <guid isPermaLink="false">ICSA-26-258-01</guid>
+      <pubDate>Tue, 15 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-258-01 · Severity: CRITICAL · Vendor: Digital Watchdog · CVSS: 9.6 · Successful exploitation of these vulnerabilities could grant full administrative control of the device, allowing an attacker to view live and recorded surveillance, alter device configurations, and use the device as a network pivot point.</description>
+    </item>
     <item>
       <title>CISA Malcolm</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-254-01</link>
@@ -40,12 +88,36 @@
       <description>CISA ICSA-26-253-01 · Severity: HIGH · Vendor: AVEVA · CVSS: 8.4 · Successful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session.</description>
     </item>
     <item>
+      <title>Schneider Electric SCADAPack x70 Products</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-04</link>
+      <guid isPermaLink="false">ICSA-26-258-04</guid>
+      <pubDate>Tue, 08 Sep 2026 07:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-258-04 · Severity: MEDIUM · Vendor: Schneider Electric · CVSS: 6.5 · We strongly recommend the following industry cybersecurity best practices. * Locate control and safety system networks and remote devices behind firewalls and isolate them from the business network. * Install physical controls so no unauthorized personnel can access your indus…</description>
+    </item>
+    <item>
       <title>CareCam Pro IP Cameras</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01</link>
       <guid isPermaLink="false">ICSA-26-251-01</guid>
       <pubDate>Tue, 08 Sep 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-251-01 · Severity: MEDIUM · Vendor: CareCam · CVSS: 6.8 · Successful exploitation of this vulnerability could allow an attacker to take full control of the device.</description>
+    </item>
+    <item>
+      <title>Siemens Teamcenter</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-07</link>
+      <guid isPermaLink="false">ICSA-26-258-07</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-258-07 · Severity: MEDIUM · Vendor: Siemens · CVSS: 6.1 · A reflected cross site scripting vulnerability in the authentication redirect flow (/auth/) of Teamcenter allows an unauthenticated remote attacker to inject JavaScript into an authenticated user's session by crafting a malicious URL. Successful exploitation may enable the att…</description>
+    </item>
+    <item>
+      <title>Siemens Reyrolle 7SR5</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-05</link>
+      <guid isPermaLink="false">ICSA-26-258-05</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-258-05 · Severity: CRITICAL · Vendor: Siemens · CVSS: 9.8 · Siemens Reyrolle 7SR5 Before V2.70 is affected by multiple vulnerabilities. Siemens has released a new version for Reyrolle 7SR5 and recommends to update to the latest version.</description>
     </item>
     <item>
       <title>Tycon Systems TPDIN-Monitor-WEB3</title>
@@ -102,6 +174,14 @@
       <pubDate>Thu, 03 Sep 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-246-01 · Severity: MEDIUM · Vendor: OPCFoundation · CVSS: 4.6 · Successful exploitation of this vulnerability could allow an attacker to take control of a high-privilege terminal during installation and run arbitrary commands.</description>
+    </item>
+    <item>
+      <title>Siemens Mendix SAML</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-06</link>
+      <guid isPermaLink="false">ICSA-26-258-06</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-258-06 · Severity: HIGH · Vendor: Siemens · CVSS: 8.7 · Mendix SAML module contains a vulnerability that could allow unauthenticated remote attackers to hijack an account in specific SSO configurations. Mendix has provided fix releases for the Mendix SAML module and recommends to update to the latest version.</description>
     </item>
     <item>
       <title>Rockwell Automation Historian ME</title>
@@ -302,6 +382,22 @@
       <pubDate>Thu, 13 Aug 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-225-01 · Severity: HIGH · Vendor: AVEVA · CVSS: 7.1 · Successful exploitation of this vulnerability could allow an attacker to tamper with serialized data, potentially resulting in code execution during deserialization.</description>
+    </item>
+    <item>
+      <title>Schneider Electric PowerChute Serial Shutdown</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-07</link>
+      <guid isPermaLink="false">ICSA-26-260-07</guid>
+      <pubDate>Tue, 11 Aug 2026 07:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-260-07 · Severity: MEDIUM · Vendor: Schneider Electric, Microsoft, Red Hat, SUSE · CVSS: 5.3 · We strongly recommend the following industry cybersecurity best practices. https://www.se.com/us/en/download/document/7EN52-0390/ * Locate control and safety system networks and remote devices behind firewalls and isolate them from the business network. * Install physical cont…</description>
+    </item>
+    <item>
+      <title>Schneider Electric NetBotz 5 750/755</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05</link>
+      <guid isPermaLink="false">ICSA-26-260-05</guid>
+      <pubDate>Tue, 11 Aug 2026 07:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-260-05 · Severity: MEDIUM · Vendor: Schneider Electric · CVSS: 6.4 · We strongly recommend the following industry cybersecurity best practices. https://www.se.com/us/en/download/document/7EN52-0390/ * Locate control and safety system networks and remote devices behind firewalls and isolate them from the business network. * Install physical cont…</description>
     </item>
     <item>
       <title>Pulsetto Vagus Nerve Stimulator</title>
@@ -528,7 +624,7 @@
       <description>CISA ICSA-26-218-01 · Severity: HIGH · Vendor: ABB · CVSS: 7.8 · ABB is aware of publicly reported vulnerabilities affecting MongoDB 4.2, which is bundled within the IIoT Services of the affected product versions. MongoDB 4.2 has reached end-of-life and contains multiple known security vulnerabilities. An attacker who successfully exploits…</description>
     </item>
     <item>
-      <title>Mitsubishi Electric CC-Link IE TSN Communication Protocol</title>
+      <title>Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07</link>
       <guid isPermaLink="false">ICSA-26-211-07</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
@@ -550,6 +646,14 @@
       <pubDate>Tue, 28 Jul 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-209-05 · Severity: HIGH · Vendor: MikroTik · CVSS: 8.8 · Successful exploitation of this vulnerability could allow attackers to rapidly guess passwords and gain unauthorized system access.</description>
+    </item>
+    <item>
+      <title>Hitachi Energy FACTS Control Platform (FCP)</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03</link>
+      <guid isPermaLink="false">ICSA-26-260-03</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-260-03 · Severity: CRITICAL · Vendor: Hitachi Energy · CVSS: 9.9 · Hitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerabilities can cause impact on confidentiality, integrity and availability of the product. Following FACTS Control sys…</description>
     </item>
     <item>
       <title>Hitachi Energy APM Edge Product</title>
@@ -862,110 +966,6 @@
       <pubDate>Thu, 02 Jul 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-183-01 · Severity: HIGH · Vendor: ST Engineering iDirect · CVSS: 8.8 · Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to device information or cause a denial-of-service condition.</description>
-    </item>
-    <item>
-      <title>CubeSpace CW0057 Reaction Wheel</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02</link>
-      <guid isPermaLink="false">ICSA-26-183-02</guid>
-      <pubDate>Thu, 02 Jul 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-183-02 · Severity: MEDIUM · Vendor: CubeSpace · CVSS: 6.1 · Successful exploitation of this vulnerability could allow an attacker to upload arbitrary malicious firmware to the device.</description>
-    </item>
-    <item>
-      <title>Gardyn IoT Hub</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03</link>
-      <guid isPermaLink="false">ICSA-26-183-03</guid>
-      <pubDate>Thu, 02 Jul 2026 05:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-183-03 · Severity: CRITICAL · Vendor: Gardyn · CVSS: 10.0 · Successful exploitation of these vulnerabilities could allow unauthenticated users to access and control IoT Hub managed devices.</description>
-    </item>
-    <item>
-      <title>OFFIS DCMTK Toolkit</title>
-      <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-181-01</link>
-      <guid isPermaLink="false">ICSMA-26-181-01</guid>
-      <pubDate>Tue, 30 Jun 2026 06:00:00 +0000</pubDate>
-      <category>medical</category>
-      <description>CISA ICSMA-26-181-01 · Severity: CRITICAL · Vendor: OFFIS · CVSS: 9.8 · Successful exploitation of these vulnerabilities could allow an attacker to write files, access unauthorized information, exhaust memory, or crash affected DCMTK client or server processes.</description>
-    </item>
-    <item>
-      <title>Delta Electronics DVP12SE PLC</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-07</link>
-      <guid isPermaLink="false">ICSA-26-181-07</guid>
-      <pubDate>Tue, 30 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-181-07 · Severity: CRITICAL · Vendor: Delta Electronics · CVSS: 9.8 · Successful exploitation of these vulnerabilities could allow an attacker to remotely issue commands, modify operational values, interfere with control logic, and alter device behavior without authentication or privilege enforcement.</description>
-    </item>
-    <item>
-      <title>StoneFly Storage Concentrator</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-06</link>
-      <guid isPermaLink="false">ICSA-26-181-06</guid>
-      <pubDate>Tue, 30 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-181-06 · Severity: CRITICAL · Vendor: StoneFly · CVSS: 10.0 · Successful exploitation of these vulnerabilities could allow attackers to gain broad unauthorized access, execute arbitrary commands with root privileges, steal sensitive data, and perform actions on behalf of legitimate users across interconnected systems.</description>
-    </item>
-    <item>
-      <title>Frangoteam FUXA SCADA/HMI</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02</link>
-      <guid isPermaLink="false">ICSA-26-181-02</guid>
-      <pubDate>Tue, 30 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-181-02 · Severity: HIGH · Vendor: Frangoteam · CVSS: 7.5 · Successful exploitation of this vulnerability could allow an unauthenticated remote attacker to enumerate all user accounts and role assignments on a FUXA SCADA/HMI instance.</description>
-    </item>
-    <item>
-      <title>Mitsubishi Electric MELSOFT Update Manager SW1DND-UDM-M</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-01</link>
-      <guid isPermaLink="false">ICSA-26-181-01</guid>
-      <pubDate>Tue, 30 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-181-01 · Severity: HIGH · Vendor: Mitsubishi Electric · CVSS: 8.8 · Successful exploitation of these vulnerabilities could allow a local attacker to tamper with or destroy information in the affected product, cause a denial-of-service condition in the affected product, or execute arbitrary code when a specially crafted archive file is decompre…</description>
-    </item>
-    <item>
-      <title>Siemens Mendix Studio Pro</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-04</link>
-      <guid isPermaLink="false">ICSA-26-188-04</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-188-04 · Severity: MEDIUM · Vendor: Siemens · CVSS: 5.4 · Mendix Studio Pro versions before V11.12 are affected by a file parsing vulnerability that could be triggered when the application reads specially crafted malicious project during the build pipeline. This could allow an attacker to execute arbitrary code in the context of that…</description>
-    </item>
-    <item>
-      <title>Hitachi Energy e-mesh EMS</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03</link>
-      <guid isPermaLink="false">ICSA-26-188-03</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-188-03 · Severity: HIGH · Vendor: Hitachi Energy · CVSS: 8.1 · Hitachi Energy is aware of a buffer overflow vulnerability that affects e-mesh EMS product versions listed in this document. Successful exploitation of this vulnerability could lead to a buffer overflow condition, potentially resulting in application outages (denial of service…</description>
-    </item>
-    <item>
-      <title>Hitachi Energy PROMOD V</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-02</link>
-      <guid isPermaLink="false">ICSA-26-188-02</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-188-02 · Severity: HIGH · Vendor: Hitachi Energy · CVSS: 7.1 · Hitachi Energy is aware of insecure HTTP transmission vulnerability in PROMOD V product versions listed in this document. This vulnerability could allow attackers to intercept or manipulate sensitive data in transit, potentially leading to credential theft, session hijacking,…</description>
-    </item>
-    <item>
-      <title>OHIF Viewers DICOM</title>
-      <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-176-02</link>
-      <guid isPermaLink="false">ICSMA-26-176-02</guid>
-      <pubDate>Thu, 25 Jun 2026 06:00:00 +0000</pubDate>
-      <category>medical</category>
-      <description>CISA ICSMA-26-176-02 · Severity: HIGH · Vendor: Open Health Imaging Foundation (OHIF) · CVSS: 8.2 · Successful exploitation of this vulnerability in a custom integration version could allow an attacker to steal an authenticated clinician's token via a crafted link.</description>
-    </item>
-    <item>
-      <title>pydicom pynetdicom Library</title>
-      <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-176-01</link>
-      <guid isPermaLink="false">ICSMA-26-176-01</guid>
-      <pubDate>Thu, 25 Jun 2026 06:00:00 +0000</pubDate>
-      <category>medical</category>
-      <description>CISA ICSMA-26-176-01 · Severity: CRITICAL · Vendor: pydicom · CVSS: 9.1 · Successful exploitation of this vulnerability could allow an unauthenticated attacker to write to arbitrary file paths.</description>
-    </item>
-    <item>
-      <title>Delta Electronics DTM Soft</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-176-06</link>
-      <guid isPermaLink="false">ICSA-26-176-06</guid>
-      <pubDate>Thu, 25 Jun 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-176-06 · Severity: HIGH · Vendor: Delta Electronics · CVSS: 7.8 · Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code.</description>
     </item>
   </channel>
 </rss>

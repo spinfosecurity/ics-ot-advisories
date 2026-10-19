@@ -5,8 +5,64 @@
     <link>https://spinfosecurity.github.io/ics-ot-advisories/</link>
     <description>Aggregated CISA ICS/OT security advisories for industrial control equipment maintainers.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 21:54:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 19:32:33 +0000</lastBuildDate>
     <atom:link href="https://spinfosecurity.github.io/ics-ot-advisories/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>J4Care dcm4che</title>
+      <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02</link>
+      <guid isPermaLink="false">ICSMA-26-288-02</guid>
+      <pubDate>Thu, 15 Oct 2026 06:00:00 +0000</pubDate>
+      <category>medical</category>
+      <description>CISA ICSMA-26-288-02 · Severity: CRITICAL · Vendor: J4Care · CVSS: 9.1 · Successful exploitation of these vulnerabilities could allow an attacker to delete stored medical images, disclose patient information, inject forged studies, reassign patient records, overwrite files, and cause a denial-of-service condition.</description>
+    </item>
+    <item>
+      <title>Thermo Fisher Torrent Suite Software</title>
+      <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01</link>
+      <guid isPermaLink="false">ICSMA-26-288-01</guid>
+      <pubDate>Thu, 15 Oct 2026 06:00:00 +0000</pubDate>
+      <category>medical</category>
+      <description>CISA ICSMA-26-288-01 · Severity: MEDIUM · Vendor: Thermo Fisher · CVSS: 6.5 · Successful exploitation of this vulnerability could allow an attacker to read arbitrary files on the Torrent Server.</description>
+    </item>
+    <item>
+      <title>Guangzhou Juan IoT Technology EseeCloud</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02</link>
+      <guid isPermaLink="false">ICSA-26-288-02</guid>
+      <pubDate>Thu, 15 Oct 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-288-02 · Severity: CRITICAL · Vendor: Guangzhou Juan IoT Technology Co., Ltd. · CVSS: 9.8 · Successful exploitation of these vulnerabilities could allow an attacker to gain control over affected IP cameras.</description>
+    </item>
+    <item>
+      <title>Eclipse Foundation Eclipse Milo</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01</link>
+      <guid isPermaLink="false">ICSA-26-288-01</guid>
+      <pubDate>Thu, 15 Oct 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-288-01 · Severity: HIGH · Vendor: Eclipse Foundation · CVSS: 8.2 · Successful exploitation of these vulnerabilities could allow an attacker to delete protected data, recover user credentials and impersonate legitimate users, or cause the server to stop responding to all clients.</description>
+    </item>
+    <item>
+      <title>Swann Communications SWIFI-SE2KIC</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02</link>
+      <guid isPermaLink="false">ICSA-26-286-02</guid>
+      <pubDate>Tue, 13 Oct 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-286-02 · Severity: MEDIUM · Vendor: Swann Communications · CVSS: 6.2 · Successful exploitation of these vulnerabilities could allow an attacker to view video information without authentication.</description>
+    </item>
+    <item>
+      <title>Inductive Automation Ignition Software</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01</link>
+      <guid isPermaLink="false">ICSA-26-286-01</guid>
+      <pubDate>Tue, 13 Oct 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-286-01 · Severity: HIGH · Vendor: Inductive Automation · CVSS: 8.8 · Successful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level.</description>
+    </item>
+    <item>
+      <title>Red Lion Controls N-Tron 700 Series - Update A</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01</link>
+      <guid isPermaLink="false">ICSA-26-281-01</guid>
+      <pubDate>Thu, 08 Oct 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-281-01 · Severity: HIGH · Vendor: Red Lion Controls · CVSS: 8.3 · Successful exploitation of these vulnerabilities could allow a malicious user to access the device and gain administrative access. This access would allow the user to view, edit, and upload configuration files. Further, a malicious user can cause the switch to reboot by naviga…</description>
+    </item>
     <item>
       <title>Satel Netco Design</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-03</link>
@@ -22,14 +78,6 @@
       <pubDate>Thu, 08 Oct 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-281-02 · Severity: CRITICAL · Vendor: Grid Protection Alliance · CVSS: 9.8 · CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities.</description>
-    </item>
-    <item>
-      <title>Red Lion Controls N-Tron 700 Series</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01</link>
-      <guid isPermaLink="false">ICSA-26-281-01</guid>
-      <pubDate>Thu, 08 Oct 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-281-01 · Severity: HIGH · Vendor: Red Lion Controls · CVSS: 8.3 · Successful exploitation of these vulnerabilities could allow a malicious user to access the device and gain administrative access. This access would allow the user to view, edit, and upload configuration files. Further, a malicious user can cause the switch to reboot by naviga…</description>
     </item>
     <item>
       <title>CISA Malcolm</title>
@@ -72,20 +120,20 @@
       <description>CISA ICSA-26-274-05 · Severity: MEDIUM · Vendor: Johnson Controls · CVSS: 5.4 · Successful exploitation of this vulnerability could allow an attacker tointercept and read sensitive information, including credentials andsession data.</description>
     </item>
     <item>
-      <title>Johnson Controls EasyIO Neo Series EC and CW Controllers</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04</link>
-      <guid isPermaLink="false">ICSA-26-274-04</guid>
-      <pubDate>Thu, 01 Oct 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-274-04 · Severity: LOW · Vendor: Johnson Controls · CVSS: 3.5 · Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system.</description>
-    </item>
-    <item>
       <title>ABB Protection and Control IED Manager PCM600</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03</link>
       <guid isPermaLink="false">ICSA-26-274-03</guid>
       <pubDate>Thu, 01 Oct 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-274-03 · Severity: MEDIUM · Vendor: ABB · CVSS: 6.4 · Successful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files.</description>
+    </item>
+    <item>
+      <title>Johnson Controls EasyIO Neo Series EC and CW Controllers</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04</link>
+      <guid isPermaLink="false">ICSA-26-274-04</guid>
+      <pubDate>Thu, 01 Oct 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-274-04 · Severity: LOW · Vendor: Johnson Controls · CVSS: 3.5 · Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system.</description>
     </item>
     <item>
       <title>Monta monta.app</title>
@@ -400,20 +448,20 @@
       <description>CISA ICSA-26-246-08 · Severity: HIGH · Vendor: Tycon Systems · CVSS: 8.8 · Successful exploitation of these vulnerabilities could allow for an attacker to perform a man-in-the-middle (MitM) attack, cause a factory reset, wipe credentials, or retrieve sensitive information.</description>
     </item>
     <item>
-      <title>Pyramid Solutions NetStaX EtherNet/IP Stack</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-07</link>
-      <guid isPermaLink="false">ICSA-26-246-07</guid>
-      <pubDate>Thu, 03 Sep 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-246-07 · Severity: CRITICAL · Vendor: Pyramid Solutions · CVSS: 9.8 · Successful exploitation of this vulnerability could result in memory corruption, a device crash, or a potential remote attack vector without the originating device receiving a CIP error indicating that the request could not be processed.</description>
-    </item>
-    <item>
       <title>Inductive Automation Ignition</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06</link>
       <guid isPermaLink="false">ICSA-26-246-06</guid>
       <pubDate>Thu, 03 Sep 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-246-06 · Severity: HIGH · Vendor: Inductive Automation · CVSS: 8.8 · Successful exploitation of this vulnerability could allow any authenticated user to create projects.</description>
+    </item>
+    <item>
+      <title>Pyramid Solutions NetStaX EtherNet/IP Stack</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-07</link>
+      <guid isPermaLink="false">ICSA-26-246-07</guid>
+      <pubDate>Thu, 03 Sep 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-246-07 · Severity: CRITICAL · Vendor: Pyramid Solutions · CVSS: 9.8 · Successful exploitation of this vulnerability could result in memory corruption, a device crash, or a potential remote attack vector without the originating device receiving a CIP error indicating that the request could not be processed.</description>
     </item>
     <item>
       <title>Rockwell Automation 1756-ENBT Module</title>
@@ -918,54 +966,6 @@
       <pubDate>Tue, 28 Jul 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-209-05 · Severity: HIGH · Vendor: MikroTik · CVSS: 8.8 · Successful exploitation of this vulnerability could allow attackers to rapidly guess passwords and gain unauthorized system access.</description>
-    </item>
-    <item>
-      <title>Hitachi Energy FACTS Control Platform (FCP)</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03</link>
-      <guid isPermaLink="false">ICSA-26-260-03</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-260-03 · Severity: CRITICAL · Vendor: Hitachi Energy · CVSS: 9.9 · Hitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerabilities can cause impact on confidentiality, integrity and availability of the product. Following FACTS Control sys…</description>
-    </item>
-    <item>
-      <title>Hitachi Energy APM Edge Product</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-04</link>
-      <guid isPermaLink="false">ICSA-26-225-04</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-225-04 · Severity: HIGH · Vendor: Hitachi Energy · CVSS: 8.8 · Hitachi Energy is aware of Dirty Frag vulnerabilities that affect APM Edge product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability of the product. Please refer to the Recom…</description>
-    </item>
-    <item>
-      <title>Johnson Controls C-CURE 9000 and Victor application server (Update A)</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01</link>
-      <guid isPermaLink="false">ICSA-26-204-01</guid>
-      <pubDate>Thu, 23 Jul 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-204-01 · Severity: CRITICAL · Vendor: Johnson Controls · CVSS: 9.6 · Successful exploitation of these vulnerabilities could allow an attacker with network access to achieve remote code execution.</description>
-    </item>
-    <item>
-      <title>MZ Automation lib60870</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07</link>
-      <guid isPermaLink="false">ICSA-26-204-07</guid>
-      <pubDate>Thu, 23 Jul 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-204-07 · Severity: HIGH · Vendor: MZ Automation · CVSS: 8.2 · Successful exploitation of this vulnerability could cause the parsing process to crash, which will cause a denial of service.</description>
-    </item>
-    <item>
-      <title>MZ Automation libIEC61850</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06</link>
-      <guid isPermaLink="false">ICSA-26-204-06</guid>
-      <pubDate>Thu, 23 Jul 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-204-06 · Severity: HIGH · Vendor: MZ Automation · CVSS: 8.1 · Successful exploitation of these vulnerabilities could allow an unauthenticated network-adjacent attacker to crash critical IEC 61850 services or execute arbitrary code, disrupting or compromising protection, visibility, and control functions.</description>
-    </item>
-    <item>
-      <title>Panduit IntraVUE</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04</link>
-      <guid isPermaLink="false">ICSA-26-204-04</guid>
-      <pubDate>Thu, 23 Jul 2026 06:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-204-04 · Severity: CRITICAL · Vendor: Pronetiqs · CVSS: 10.0 · Successful exploitation of these vulnerabilities could allow an attacker with access to the IT network to manipulate industrial control devices without requiring physical access, specialized insider knowledge, or advanced tooling.</description>
     </item>
   </channel>
 </rss>

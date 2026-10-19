@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T21:54:13Z",
+  "generated_at": "2026-10-19T19:32:33Z",
   "source": {
     "name": "CISA CSAF OT feed (TLP:WHITE)",
     "url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/cisa-csaf-ot-feed-tlp-white.json",
@@ -7,6 +7,174 @@
   },
   "count": 120,
   "advisories": [
+    {
+      "id": "ICSMA-26-288-02",
+      "title": "J4Care dcm4che",
+      "published": "2026-10-15T06:00:00.000000Z",
+      "updated": "2026-10-15T06:00:00.000000Z",
+      "kind": "medical",
+      "severity": "CRITICAL",
+      "cvss": 9.1,
+      "vendors": [
+        "J4Care"
+      ],
+      "products": [
+        "dcm4chee-arc-light"
+      ],
+      "cves": [
+        "CVE-2026-97851",
+        "CVE-2026-107621",
+        "CVE-2026-105273",
+        "CVE-2026-101021",
+        "CVE-2026-105279",
+        "CVE-2026-105667"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsma-26-288-02.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to delete stored medical images, disclose patient information, inject forged studies, reassign patient records, overwrite files, and cause a denial-of-service condition."
+    },
+    {
+      "id": "ICSMA-26-288-01",
+      "title": "Thermo Fisher Torrent Suite Software",
+      "published": "2026-10-15T06:00:00.000000Z",
+      "updated": "2026-10-15T06:00:00.000000Z",
+      "kind": "medical",
+      "severity": "MEDIUM",
+      "cvss": 6.5,
+      "vendors": [
+        "Thermo Fisher"
+      ],
+      "products": [
+        "Torrent Suite Software"
+      ],
+      "cves": [
+        "CVE-2026-107777"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsma-26-288-01.json",
+      "summary": "Successful exploitation of this vulnerability could allow an attacker to read arbitrary files on the Torrent Server."
+    },
+    {
+      "id": "ICSA-26-288-02",
+      "title": "Guangzhou Juan IoT Technology EseeCloud",
+      "published": "2026-10-15T06:00:00.000000Z",
+      "updated": "2026-10-15T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "CRITICAL",
+      "cvss": 9.8,
+      "vendors": [
+        "Guangzhou Juan IoT Technology Co., Ltd."
+      ],
+      "products": [
+        "EseeCloud App",
+        "EseeCloud Firmware"
+      ],
+      "cves": [
+        "CVE-2026-107617",
+        "CVE-2026-97858",
+        "CVE-2026-105664"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-288-02.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to gain control over affected IP cameras."
+    },
+    {
+      "id": "ICSA-26-288-01",
+      "title": "Eclipse Foundation Eclipse Milo",
+      "published": "2026-10-15T06:00:00.000000Z",
+      "updated": "2026-10-15T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.2,
+      "vendors": [
+        "Eclipse Foundation"
+      ],
+      "products": [
+        "Eclipse Milo"
+      ],
+      "cves": [
+        "CVE-2026-62927",
+        "CVE-2026-63252",
+        "CVE-2026-58080",
+        "CVE-2026-63248",
+        "CVE-2026-60007",
+        "CVE-2026-61387"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-288-01.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to delete protected data, recover user credentials and impersonate legitimate users, or cause the server to stop responding to all clients."
+    },
+    {
+      "id": "ICSA-26-286-02",
+      "title": "Swann Communications SWIFI-SE2KIC",
+      "published": "2026-10-13T06:00:00.000000Z",
+      "updated": "2026-10-13T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "MEDIUM",
+      "cvss": 6.2,
+      "vendors": [
+        "Swann Communications"
+      ],
+      "products": [
+        "SWIFI-SE2KIC firmware"
+      ],
+      "cves": [
+        "CVE-2026-107605",
+        "CVE-2026-107606",
+        "CVE-2026-107607"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-286-02.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to view video information without authentication."
+    },
+    {
+      "id": "ICSA-26-286-01",
+      "title": "Inductive Automation Ignition Software",
+      "published": "2026-10-13T06:00:00.000000Z",
+      "updated": "2026-10-13T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.8,
+      "vendors": [
+        "Inductive Automation"
+      ],
+      "products": [
+        "Ignition"
+      ],
+      "cves": [
+        "CVE-2026-92817"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-286-01.json",
+      "summary": "Successful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level."
+    },
+    {
+      "id": "ICSA-26-281-01",
+      "title": "Red Lion Controls N-Tron 700 Series - Update A",
+      "published": "2026-10-08T06:00:00.000000Z",
+      "updated": "2026-10-15T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.3,
+      "vendors": [
+        "Red Lion Controls"
+      ],
+      "products": [
+        "700 Series"
+      ],
+      "cves": [
+        "CVE-2026-32645",
+        "CVE-2026-39460",
+        "CVE-2026-28745",
+        "CVE-2026-33367",
+        "CVE-2026-29797",
+        "CVE-2026-39453",
+        "CVE-2026-33272"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-281-01.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow a malicious user to access the device and gain administrative access. This access would allow the user to view, edit, and upload configuration files. Further, a malicious user can cause the switch to reboot by naviga\u2026"
+    },
     {
       "id": "ICSA-26-281-03",
       "title": "Satel Netco Design",
@@ -60,37 +228,10 @@
       "summary": "CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities."
     },
     {
-      "id": "ICSA-26-281-01",
-      "title": "Red Lion Controls N-Tron 700 Series",
-      "published": "2026-10-08T06:00:00.000000Z",
-      "updated": "2026-10-08T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 8.3,
-      "vendors": [
-        "Red Lion Controls"
-      ],
-      "products": [
-        "700 Series"
-      ],
-      "cves": [
-        "CVE-2026-32645",
-        "CVE-2026-39460",
-        "CVE-2026-28745",
-        "CVE-2026-33367",
-        "CVE-2026-29797",
-        "CVE-2026-39453",
-        "CVE-2026-33272"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-281-01.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow a malicious user to access the device and gain administrative access. This access would allow the user to view, edit, and upload configuration files. Further, a malicious user can cause the switch to reboot by naviga\u2026"
-    },
-    {
       "id": "ICSA-26-280-01",
       "title": "CISA Malcolm",
       "published": "2026-10-07T06:00:00.000000Z",
-      "updated": "2026-10-07T06:00:00.000000Z",
+      "updated": "2026-10-15T06:00:00.000000Z",
       "kind": "advisory",
       "severity": "HIGH",
       "cvss": 8.1,
@@ -201,28 +342,6 @@
       "summary": "Successful exploitation of this vulnerability could allow an attacker tointercept and read sensitive information, including credentials andsession data."
     },
     {
-      "id": "ICSA-26-274-04",
-      "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
-      "published": "2026-10-01T06:00:00.000000Z",
-      "updated": "2026-10-01T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "LOW",
-      "cvss": 3.5,
-      "vendors": [
-        "Johnson Controls"
-      ],
-      "products": [
-        "EasyIO Neo Series EC Controllers",
-        "EasyIO Neo Series CW Controllers"
-      ],
-      "cves": [
-        "CVE-2026-64892"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-274-04.json",
-      "summary": "Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system."
-    },
-    {
       "id": "ICSA-26-274-03",
       "title": "ABB Protection and Control IED Manager PCM600",
       "published": "2026-10-01T06:00:00.000000Z",
@@ -243,6 +362,28 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-274-03.json",
       "summary": "Successful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files."
+    },
+    {
+      "id": "ICSA-26-274-04",
+      "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
+      "published": "2026-10-01T06:00:00.000000Z",
+      "updated": "2026-10-01T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "LOW",
+      "cvss": 3.5,
+      "vendors": [
+        "Johnson Controls"
+      ],
+      "products": [
+        "EasyIO Neo Series EC Controllers",
+        "EasyIO Neo Series CW Controllers"
+      ],
+      "cves": [
+        "CVE-2026-64892"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-274-04.json",
+      "summary": "Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system."
     },
     {
       "id": "ICSA-26-274-02",
@@ -1202,6 +1343,27 @@
       "summary": "Successful exploitation of these vulnerabilities could allow for an attacker to perform a man-in-the-middle (MitM) attack, cause a factory reset, wipe credentials, or retrieve sensitive information."
     },
     {
+      "id": "ICSA-26-246-06",
+      "title": "Inductive Automation Ignition",
+      "published": "2026-09-03T06:00:00.000000Z",
+      "updated": "2026-09-03T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.8,
+      "vendors": [
+        "Inductive Automation"
+      ],
+      "products": [
+        "Ignition"
+      ],
+      "cves": [
+        "CVE-2026-77393"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-246-06.json",
+      "summary": "Successful exploitation of this vulnerability could allow any authenticated user to create projects."
+    },
+    {
       "id": "ICSA-26-246-07",
       "title": "Pyramid Solutions NetStaX EtherNet/IP Stack",
       "published": "2026-09-03T06:00:00.000000Z",
@@ -1228,27 +1390,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-07",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-246-07.json",
       "summary": "Successful exploitation of this vulnerability could result in memory corruption, a device crash, or a potential remote attack vector without the originating device receiving a CIP error indicating that the request could not be processed."
-    },
-    {
-      "id": "ICSA-26-246-06",
-      "title": "Inductive Automation Ignition",
-      "published": "2026-09-03T06:00:00.000000Z",
-      "updated": "2026-09-03T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 8.8,
-      "vendors": [
-        "Inductive Automation"
-      ],
-      "products": [
-        "Ignition"
-      ],
-      "cves": [
-        "CVE-2026-77393"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-246-06.json",
-      "summary": "Successful exploitation of this vulnerability could allow any authenticated user to create projects."
     },
     {
       "id": "ICSA-26-246-05",
@@ -2728,149 +2869,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-209-05.json",
       "summary": "Successful exploitation of this vulnerability could allow attackers to rapidly guess passwords and gain unauthorized system access."
-    },
-    {
-      "id": "ICSA-26-260-03",
-      "title": "Hitachi Energy FACTS Control Platform (FCP)",
-      "published": "2026-07-28T00:00:00.000000Z",
-      "updated": "2026-09-17T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "CRITICAL",
-      "cvss": 9.9,
-      "vendors": [
-        "Hitachi Energy"
-      ],
-      "products": [
-        "FACTS Control Platform (FCP)"
-      ],
-      "cves": [
-        "CVE-2024-4872",
-        "CVE-2024-3980",
-        "CVE-2024-3982",
-        "CVE-2024-7940",
-        "CVE-2024-7941"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-260-03.json",
-      "summary": "Hitachi Energy is aware of vulnerabilities that affect the FACTS Control systems with GWS component listed in this document. An attacker exploiting these vulnerabilities can cause impact on confidentiality, integrity and availability of the product. Following FACTS Control sys\u2026"
-    },
-    {
-      "id": "ICSA-26-225-04",
-      "title": "Hitachi Energy APM Edge Product",
-      "published": "2026-07-28T00:00:00.000000Z",
-      "updated": "2026-08-13T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 8.8,
-      "vendors": [
-        "Hitachi Energy"
-      ],
-      "products": [
-        "APM Edge"
-      ],
-      "cves": [
-        "CVE-2026-43284",
-        "CVE-2026-43500"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-04",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-225-04.json",
-      "summary": "Hitachi Energy is aware of Dirty Frag vulnerabilities that affect APM Edge product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability of the product. Please refer to the Recom\u2026"
-    },
-    {
-      "id": "ICSA-26-204-01",
-      "title": "Johnson Controls C-CURE 9000 and Victor application server (Update A)",
-      "published": "2026-07-23T06:00:00.000000Z",
-      "updated": "2026-08-11T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "CRITICAL",
-      "cvss": 9.6,
-      "vendors": [
-        "Johnson Controls"
-      ],
-      "products": [
-        "C-CURE 9000",
-        "victor Application Server",
-        "victor",
-        "victor Web"
-      ],
-      "cves": [
-        "CVE-2026-21655",
-        "CVE-2026-21653",
-        "CVE-2026-34496"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-204-01.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker with network access to achieve remote code execution."
-    },
-    {
-      "id": "ICSA-26-204-07",
-      "title": "MZ Automation lib60870",
-      "published": "2026-07-23T06:00:00.000000Z",
-      "updated": "2026-07-23T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 8.2,
-      "vendors": [
-        "MZ Automation"
-      ],
-      "products": [
-        "lib60870"
-      ],
-      "cves": [
-        "CVE-2026-16002"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-204-07.json",
-      "summary": "Successful exploitation of this vulnerability could cause the parsing process to crash, which will cause a denial of service."
-    },
-    {
-      "id": "ICSA-26-204-06",
-      "title": "MZ Automation libIEC61850",
-      "published": "2026-07-23T06:00:00.000000Z",
-      "updated": "2026-07-23T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 8.1,
-      "vendors": [
-        "MZ Automation"
-      ],
-      "products": [
-        "libIEC61850"
-      ],
-      "cves": [
-        "CVE-2026-50039",
-        "CVE-2026-49035",
-        "CVE-2026-50103",
-        "CVE-2026-50032"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-204-06.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an unauthenticated network-adjacent attacker to crash critical IEC 61850 services or execute arbitrary code, disrupting or compromising protection, visibility, and control functions."
-    },
-    {
-      "id": "ICSA-26-204-04",
-      "title": "Panduit IntraVUE",
-      "published": "2026-07-23T06:00:00.000000Z",
-      "updated": "2026-07-23T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "CRITICAL",
-      "cvss": 10.0,
-      "vendors": [
-        "Pronetiqs"
-      ],
-      "products": [
-        "IntraVUE"
-      ],
-      "cves": [
-        "CVE-2026-40430",
-        "CVE-2026-42933",
-        "CVE-2026-44955",
-        "CVE-2026-50044",
-        "CVE-2026-28698"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-204-04.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker with access to the IT network to manipulate industrial control devices without requiring physical access, specialized insider knowledge, or advanced tooling."
     }
   ]
 }

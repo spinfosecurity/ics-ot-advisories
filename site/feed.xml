@@ -5,8 +5,40 @@
     <link>https://spinfosecurity.github.io/ics-ot-advisories/</link>
     <description>Aggregated CISA ICS/OT security advisories for industrial control equipment maintainers.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 19:37:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 22:30:34 +0000</lastBuildDate>
     <atom:link href="https://spinfosecurity.github.io/ics-ot-advisories/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>EPICS Base</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01</link>
+      <guid isPermaLink="false">ICSA-26-300-01</guid>
+      <pubDate>Tue, 27 Oct 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-300-01 · Severity: CRITICAL · Vendor: The EPICS Community · CVSS: 9.8 · Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code.</description>
+    </item>
+    <item>
+      <title>Hitachi Energy CoreTec Product</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03</link>
+      <guid isPermaLink="false">ICSA-26-302-03</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-302-03 · Severity: HIGH · Vendor: Hitachi Energy · CVSS: 8.8 · Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability of the product. P…</description>
+    </item>
+    <item>
+      <title>Hitachi Energy TRO600 series products</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02</link>
+      <guid isPermaLink="false">ICSA-26-302-02</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-302-02 · Severity: HIGH · Vendor: Hitachi Energy · CVSS: 7.5 · Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carry out further attacks and disclosure of sensitive information. Please refer…</description>
+    </item>
+    <item>
+      <title>Siemens Mendix SAML Module</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01</link>
+      <guid isPermaLink="false">ICSA-26-302-01</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-302-01 · Severity: MEDIUM · Vendor: Siemens · CVSS: 6.8 · Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has released new versions for the affected prod…</description>
+    </item>
     <item>
       <title>InterSystems Corporation InterSystems IRIS for Health</title>
       <link>https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-295-01</link>
@@ -70,6 +102,14 @@
       <pubDate>Thu, 15 Oct 2026 06:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-288-01 · Severity: HIGH · Vendor: Eclipse Foundation · CVSS: 8.2 · Successful exploitation of these vulnerabilities could allow an attacker to delete protected data, recover user credentials and impersonate legitimate users, or cause the server to stop responding to all clients.</description>
+    </item>
+    <item>
+      <title>Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02</link>
+      <guid isPermaLink="false">ICSA-26-300-02</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-300-02 · Severity: CRITICAL · Vendor: Mitsubishi Electric, Mitsubishi Electric Iconics Digital Solutions · CVSS: 9.1 · Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 and CVE-2026-16437), or perform arbitrary operations (CVE-2026-16438), resulting in information disclosure, tampering with,…</description>
     </item>
     <item>
       <title>Siemens Software Center</title>
@@ -408,7 +448,7 @@
       <description>CISA ICSA-26-279-03 · Severity: HIGH · Vendor: Hitachi Energy · CVSS: 8.1 · Hitachi Energy is aware of unauthenticated servlet access vulnerabilities that affect Asset Suite product versions listed in this document. These vulnerabilities can be exploited to potentially cause confidentiality, integrity and availability impact on the product. Please ref…</description>
     </item>
     <item>
-      <title>Eufy Omni C20, Omni X10 Pro</title>
+      <title>Eufy Omni C20, Omni X10 Pro (Update A)</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-02</link>
       <guid isPermaLink="false">ICSA-26-267-02</guid>
       <pubDate>Thu, 24 Sep 2026 06:00:00 +0000</pubDate>
@@ -926,46 +966,6 @@
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
       <category>advisory</category>
       <description>CISA ICSA-26-237-03 · Severity: CRITICAL · Vendor: Siemens · CVSS: 10.0 · SIMATIC IoT2050 Advanced devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlyi…</description>
-    </item>
-    <item>
-      <title>Siemens Simcenter Nastran</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02</link>
-      <guid isPermaLink="false">ICSA-26-230-02</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-230-02 · Severity: HIGH · Vendor: Siemens · CVSS: 7.8 · Simcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked to run one of the impacted application binary with a malicious string, an attacker could leverage…</description>
-    </item>
-    <item>
-      <title>Siemens LOGO! Soft Comfort</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13</link>
-      <guid isPermaLink="false">ICSA-26-225-13</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-225-13 · Severity: MEDIUM · Vendor: Siemens · CVSS: 6.8 · Siemens LOGO! Soft Comfort contains multiple vulnerabilities in its project-file encryption and password handling mechanisms. A local attacker could exploit these vulnerabilities to extract the master key, allowing them to decrypt project data or remove project passwords. The…</description>
-    </item>
-    <item>
-      <title>Siemens Solid Edge</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12</link>
-      <guid isPermaLink="false">ICSA-26-225-12</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-225-12 · Severity: HIGH · Vendor: Siemens · CVSS: 7.8 · Solid Edge is affected by multiple file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR, PSM or DFT format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released new versi…</description>
-    </item>
-    <item>
-      <title>Siemens Simcenter Femap</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-11</link>
-      <guid isPermaLink="false">ICSA-26-225-11</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-225-11 · Severity: HIGH · Vendor: Siemens · CVSS: 7.8 · Simcenter Femap contains two file parsing vulnerabilities that could be triggered when the application reads files in BMP file format. If a user is tricked to open a malicious file with the affected application, this could lead the application to crash or potentially lead to a…</description>
-    </item>
-    <item>
-      <title>Siemens Parasolid</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-10</link>
-      <guid isPermaLink="false">ICSA-26-225-10</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-225-10 · Severity: HIGH · Vendor: Siemens · CVSS: 7.8 · Parasolid is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released new versions for the affected products and…</description>
     </item>
   </channel>
 </rss>

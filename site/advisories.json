@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:37:25Z",
+  "generated_at": "2026-11-02T22:30:34Z",
   "source": {
     "name": "CISA CSAF OT feed (TLP:WHITE)",
     "url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/cisa-csaf-ot-feed-tlp-white.json",
@@ -7,6 +7,98 @@
   },
   "count": 120,
   "advisories": [
+    {
+      "id": "ICSA-26-300-01",
+      "title": "EPICS Base",
+      "published": "2026-10-27T06:00:00.000000Z",
+      "updated": "2026-10-27T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "CRITICAL",
+      "cvss": 9.8,
+      "vendors": [
+        "The EPICS Community"
+      ],
+      "products": [
+        "EPICS Base release"
+      ],
+      "cves": [
+        "CVE-2026-114595",
+        "CVE-2026-114596",
+        "CVE-2026-114597",
+        "CVE-2026-114598"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-300-01.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code."
+    },
+    {
+      "id": "ICSA-26-302-03",
+      "title": "Hitachi Energy CoreTec Product",
+      "published": "2026-10-27T00:00:00.000000Z",
+      "updated": "2026-10-29T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.8,
+      "vendors": [
+        "Hitachi Energy"
+      ],
+      "products": [
+        "CoreTec5",
+        "CoreTec4"
+      ],
+      "cves": [
+        "CVE-2026-13162",
+        "CVE-2026-43284"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-302-03.json",
+      "summary": "Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability of the product. P\u2026"
+    },
+    {
+      "id": "ICSA-26-302-02",
+      "title": "Hitachi Energy TRO600 series products",
+      "published": "2026-10-27T00:00:00.000000Z",
+      "updated": "2026-10-29T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.5,
+      "vendors": [
+        "Hitachi Energy"
+      ],
+      "products": [
+        "TRO600"
+      ],
+      "cves": [
+        "CVE-2026-10756",
+        "CVE-2026-106087"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-302-02.json",
+      "summary": "Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carry out further attacks and disclosure of sensitive information. Please refer\u2026"
+    },
+    {
+      "id": "ICSA-26-302-01",
+      "title": "Siemens Mendix SAML Module",
+      "published": "2026-10-26T00:00:00.000000Z",
+      "updated": "2026-10-29T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "MEDIUM",
+      "cvss": 6.8,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        "Mendix SAML (Mendix 10 compatible)",
+        "Mendix SAML (Mendix 11 compatible)",
+        "Mendix SAML (Mendix 9 compatible)"
+      ],
+      "cves": [
+        "CVE-2026-89209"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-302-01.json",
+      "summary": "Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has released new versions for the affected prod\u2026"
+    },
     {
       "id": "ICSMA-26-295-01",
       "title": "InterSystems Corporation InterSystems IRIS for Health",
@@ -202,6 +294,38 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-288-01.json",
       "summary": "Successful exploitation of these vulnerabilities could allow an attacker to delete protected data, recover user credentials and impersonate legitimate users, or cause the server to stop responding to all clients."
+    },
+    {
+      "id": "ICSA-26-300-02",
+      "title": "Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+      "published": "2026-10-15T00:00:00.000000Z",
+      "updated": "2026-10-27T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "CRITICAL",
+      "cvss": 9.1,
+      "vendors": [
+        "Mitsubishi Electric",
+        "Mitsubishi Electric Iconics Digital Solutions"
+      ],
+      "products": [
+        "Mitsubishi Electric GENESIS64",
+        "Mitsubishi Electric ICONICS Suite",
+        "Mitsubishi Electric GENESIS",
+        "Mitsubishi Electric Hyper Historian",
+        "Mitsubishi Electric AnalytiX",
+        "Mitsubishi Electric MobileHMI",
+        "Mitsubishi Electric IoTWorX",
+        "Mitsubishi Electric MC Works64"
+      ],
+      "cves": [
+        "CVE-2023-4863",
+        "CVE-2026-16436",
+        "CVE-2026-16437",
+        "CVE-2026-16438"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-300-02.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 and CVE-2026-16437), or perform arbitrary operations (CVE-2026-16438), resulting in information disclosure, tampering with,\u2026"
     },
     {
       "id": "ICSA-26-295-03",
@@ -1251,9 +1375,9 @@
     },
     {
       "id": "ICSA-26-267-02",
-      "title": "Eufy Omni C20, Omni X10 Pro",
+      "title": "Eufy Omni C20, Omni X10 Pro (Update A)",
       "published": "2026-09-24T06:00:00.000000Z",
-      "updated": "2026-09-24T06:00:00.000000Z",
+      "updated": "2026-10-27T06:00:00.000000Z",
       "kind": "advisory",
       "severity": "CRITICAL",
       "cvss": 9.4,
@@ -2030,7 +2154,7 @@
       "id": "ICSA-26-258-06",
       "title": "Siemens Mendix SAML",
       "published": "2026-09-03T00:00:00.000000Z",
-      "updated": "2026-09-15T06:00:00.000000Z",
+      "updated": "2026-10-29T06:00:00.000000Z",
       "kind": "advisory",
       "severity": "HIGH",
       "cvss": 8.7,
@@ -2812,122 +2936,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-03",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-237-03.json",
       "summary": "SIMATIC IoT2050 Advanced devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlyi\u2026"
-    },
-    {
-      "id": "ICSA-26-230-02",
-      "title": "Siemens Simcenter Nastran",
-      "published": "2026-08-11T00:00:00.000000Z",
-      "updated": "2026-08-18T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.8,
-      "vendors": [
-        "Siemens"
-      ],
-      "products": [
-        "Simcenter Femap",
-        "Simcenter Nastran"
-      ],
-      "cves": [
-        "CVE-2026-59086"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-230-02.json",
-      "summary": "Simcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked to run one of the impacted application binary with a malicious string, an attacker could leverage\u2026"
-    },
-    {
-      "id": "ICSA-26-225-13",
-      "title": "Siemens LOGO! Soft Comfort",
-      "published": "2026-08-11T00:00:00.000000Z",
-      "updated": "2026-08-13T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "MEDIUM",
-      "cvss": 6.8,
-      "vendors": [
-        "Siemens"
-      ],
-      "products": [
-        "LOGO! Soft Comfort"
-      ],
-      "cves": [
-        "CVE-2026-57262",
-        "CVE-2026-57263"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-225-13.json",
-      "summary": "Siemens LOGO! Soft Comfort contains multiple vulnerabilities in its project-file encryption and password handling mechanisms. A local attacker could exploit these vulnerabilities to extract the master key, allowing them to decrypt project data or remove project passwords. The\u2026"
-    },
-    {
-      "id": "ICSA-26-225-12",
-      "title": "Siemens Solid Edge",
-      "published": "2026-08-11T00:00:00.000000Z",
-      "updated": "2026-08-13T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.8,
-      "vendors": [
-        "Siemens"
-      ],
-      "products": [
-        "Solid Edge SE2025",
-        "Solid Edge SE2026"
-      ],
-      "cves": [
-        "CVE-2026-50058",
-        "CVE-2026-50059",
-        "CVE-2026-50060",
-        "CVE-2026-50061",
-        "CVE-2026-50062",
-        "CVE-2026-50063",
-        "CVE-2026-50064"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-225-12.json",
-      "summary": "Solid Edge is affected by multiple file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR, PSM or DFT format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released new versi\u2026"
-    },
-    {
-      "id": "ICSA-26-225-11",
-      "title": "Siemens Simcenter Femap",
-      "published": "2026-08-11T00:00:00.000000Z",
-      "updated": "2026-08-13T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.8,
-      "vendors": [
-        "Siemens"
-      ],
-      "products": [
-        "Simcenter Femap"
-      ],
-      "cves": [
-        "CVE-2026-59700",
-        "CVE-2026-59701"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-11",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-225-11.json",
-      "summary": "Simcenter Femap contains two file parsing vulnerabilities that could be triggered when the application reads files in BMP file format. If a user is tricked to open a malicious file with the affected application, this could lead the application to crash or potentially lead to a\u2026"
-    },
-    {
-      "id": "ICSA-26-225-10",
-      "title": "Siemens Parasolid",
-      "published": "2026-08-11T00:00:00.000000Z",
-      "updated": "2026-08-13T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.8,
-      "vendors": [
-        "Siemens"
-      ],
-      "products": [
-        "Parasolid V38.0",
-        "Parasolid V38.1"
-      ],
-      "cves": [
-        "CVE-2026-64629"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-10",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-225-10.json",
-      "summary": "Parasolid is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released new versions for the affected products and\u2026"
     }
   ]
 }

@@ -5,8 +5,16 @@
     <link>https://spinfosecurity.github.io/ics-ot-advisories/</link>
     <description>Aggregated CISA ICS/OT security advisories for industrial control equipment maintainers.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2026 22:30:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 23:12:14 +0000</lastBuildDate>
     <atom:link href="https://spinfosecurity.github.io/ics-ot-advisories/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Subnet Solutions PowerSYSTEM Center</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01</link>
+      <guid isPermaLink="false">ICSA-26-307-01</guid>
+      <pubDate>Tue, 03 Nov 2026 06:00:00 +0000</pubDate>
+      <category>advisory</category>
+      <description>CISA ICSA-26-307-01 · Severity: CRITICAL · Vendor: Subnet Solutions · CVSS: 9.0 · Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and gain access to unauthorized resources.</description>
+    </item>
     <item>
       <title>EPICS Base</title>
       <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01</link>
@@ -958,14 +966,6 @@
       <pubDate>Tue, 11 Aug 2026 06:00:00 +0000</pubDate>
       <category>medical</category>
       <description>CISA ICSMA-26-223-01 · Severity: CRITICAL · Vendor: Quanovate Tech Inc. (operating as Mira / Mira Care) · CVSS: 9.8 · Successful exploitation of these vulnerabilities could allow an attacker to access unauthorized health profile information, make changes to health information, cause a denial-of-service condition, disclose session token information, and obtain control of user accounts.</description>
-    </item>
-    <item>
-      <title>Siemens SIMATIC IoT2050 Advanced</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-03</link>
-      <guid isPermaLink="false">ICSA-26-237-03</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>advisory</category>
-      <description>CISA ICSA-26-237-03 · Severity: CRITICAL · Vendor: Siemens · CVSS: 10.0 · SIMATIC IoT2050 Advanced devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlyi…</description>
     </item>
   </channel>
 </rss>

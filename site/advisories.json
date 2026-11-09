@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T22:30:34Z",
+  "generated_at": "2026-11-09T23:12:14Z",
   "source": {
     "name": "CISA CSAF OT feed (TLP:WHITE)",
     "url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/cisa-csaf-ot-feed-tlp-white.json",
@@ -7,6 +7,30 @@
   },
   "count": 120,
   "advisories": [
+    {
+      "id": "ICSA-26-307-01",
+      "title": "Subnet Solutions PowerSYSTEM Center",
+      "published": "2026-11-03T06:00:00.000000Z",
+      "updated": "2026-11-03T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "CRITICAL",
+      "cvss": 9.0,
+      "vendors": [
+        "Subnet Solutions"
+      ],
+      "products": [
+        "PowerSYSTEM Center 2020",
+        "PowerSYSTEM Center 2024",
+        "PowerSYSTEM Center 2026"
+      ],
+      "cves": [
+        "CVE-2026-63017",
+        "CVE-2026-63774"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-307-01.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and gain access to unauthorized resources."
+    },
     {
       "id": "ICSA-26-300-01",
       "title": "EPICS Base",
@@ -2915,27 +2939,6 @@
       "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-01",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsma-26-223-01.json",
       "summary": "Successful exploitation of these vulnerabilities could allow an attacker to access unauthorized health profile information, make changes to health information, cause a denial-of-service condition, disclose session token information, and obtain control of user accounts."
-    },
-    {
-      "id": "ICSA-26-237-03",
-      "title": "Siemens SIMATIC IoT2050 Advanced",
-      "published": "2026-08-11T00:00:00.000000Z",
-      "updated": "2026-08-25T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "CRITICAL",
-      "cvss": 10.0,
-      "vendors": [
-        "Siemens"
-      ],
-      "products": [
-        "SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2)"
-      ],
-      "cves": [
-        "CVE-2026-58115"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-03",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-237-03.json",
-      "summary": "SIMATIC IoT2050 Advanced devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unauthenticated remote attacker to create malicious flows and execute arbitrary code on the underlyi\u2026"
     }
   ]
 }

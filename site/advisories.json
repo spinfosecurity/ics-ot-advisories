@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T23:04:45Z",
+  "generated_at": "2026-11-24T01:18:10Z",
   "source": {
     "name": "CISA CSAF OT feed (TLP:WHITE)",
     "url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/cisa-csaf-ot-feed-tlp-white.json",
@@ -7,6 +7,313 @@
   },
   "count": 120,
   "advisories": [
+    {
+      "id": "ICSA-26-323-03",
+      "title": "libumqtt",
+      "published": "2026-11-19T06:00:00.000000Z",
+      "updated": "2026-11-19T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.6,
+      "vendors": [
+        "libumqtt"
+      ],
+      "products": [
+        "libumqtt"
+      ],
+      "cves": [
+        "CVE-2026-125132"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-323-03.json",
+      "summary": "Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure."
+    },
+    {
+      "id": "ICSA-26-323-02",
+      "title": "Elecbrakes EB2, VM1, ELBC2000",
+      "published": "2026-11-19T06:00:00.000000Z",
+      "updated": "2026-11-19T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "CRITICAL",
+      "cvss": 9.6,
+      "vendors": [
+        "Elecbrakes"
+      ],
+      "products": [
+        "EB2",
+        "ELBC2000",
+        "VM1"
+      ],
+      "cves": [
+        "CVE-2026-124281",
+        "CVE-2026-125273",
+        "CVE-2026-96805"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-323-02.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safety features."
+    },
+    {
+      "id": "ICSA-26-323-01",
+      "title": "Autonomy Logic OpenPLC Runtime",
+      "published": "2026-11-19T06:00:00.000000Z",
+      "updated": "2026-11-19T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.1,
+      "vendors": [
+        "Autonomy Logic"
+      ],
+      "products": [
+        "OpenPLC Runtime"
+      ],
+      "cves": [
+        "CVE-2026-126088"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-323-01.json",
+      "summary": "Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created."
+    },
+    {
+      "id": "ICSA-26-321-01",
+      "title": "Dorsett Controls InfoScan",
+      "published": "2026-11-17T06:00:00.000000Z",
+      "updated": "2026-11-17T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.1,
+      "vendors": [
+        "Dorsett Controls"
+      ],
+      "products": [
+        "InfoScan"
+      ],
+      "cves": [
+        "CVE-2026-117659",
+        "CVE-2026-120157",
+        "CVE-2026-120255",
+        "CVE-2026-120260",
+        "CVE-2026-120271",
+        "CVE-2026-120298"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-321-01.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications."
+    },
+    {
+      "id": "ICSA-26-321-11",
+      "title": "Siemens meta-iot2050",
+      "published": "2026-11-10T00:00:00.000000Z",
+      "updated": "2026-11-17T07:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.3,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        "meta-iot2050"
+      ],
+      "cves": [
+        "CVE-2026-109830"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-321-11.json",
+      "summary": "meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to have arbitrary commands run as root. Siemens is prepari\u2026"
+    },
+    {
+      "id": "ICSA-26-321-10",
+      "title": "Siemens Simcenter Femap",
+      "published": "2026-11-10T00:00:00.000000Z",
+      "updated": "2026-11-17T07:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.8,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        "Simcenter Femap"
+      ],
+      "cves": [
+        "CVE-2026-64629"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-321-10.json",
+      "summary": "Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released a new version for Simcenter Femap an\u2026"
+    },
+    {
+      "id": "ICSA-26-321-09",
+      "title": "Siemens SIMATIC WinCC",
+      "published": "2026-11-10T00:00:00.000000Z",
+      "updated": "2026-11-17T07:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.8,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        "SIMATIC WinCC V7.5",
+        "SIMATIC WinCC V8.0",
+        "SIMATIC WinCC V8.1"
+      ],
+      "cves": [
+        "CVE-2026-59082"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-321-09.json",
+      "summary": "Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device. Siemens is preparing fixes and recommends specific mitigations for prod\u2026"
+    },
+    {
+      "id": "ICSA-26-321-08",
+      "title": "Siemens SIMATIC",
+      "published": "2026-11-10T00:00:00.000000Z",
+      "updated": "2026-11-17T07:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.5,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        "SIMATIC BATCH V9.1",
+        "SIMATIC Information Server 2020",
+        "SIMATIC Information Server 2022",
+        "SIMATIC PCS 7 V9.1",
+        "SIMATIC Process Historian 2020",
+        "SIMATIC Process Historian 2022",
+        "SIMATIC WinCC Runtime Professional V17",
+        "SIMATIC WinCC Runtime Professional V18"
+      ],
+      "cves": [
+        "CVE-2026-58114"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-321-08.json",
+      "summary": "The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user. Siemens is preparing fixes and recommends specific mit\u2026"
+    },
+    {
+      "id": "ICSA-26-321-07",
+      "title": "Siemens RUGGEDCOM APE1808",
+      "published": "2026-11-10T00:00:00.000000Z",
+      "updated": "2026-11-17T07:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "LOW",
+      "cvss": 2.3,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        "RUGGEDCOM APE1808"
+      ],
+      "cves": [
+        "CVE-2026-106175"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-321-07.json",
+      "summary": "Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure. Contact customer supp\u2026"
+    },
+    {
+      "id": "ICSA-26-321-06",
+      "title": "Siemens ROS#",
+      "published": "2026-11-10T00:00:00.000000Z",
+      "updated": "2026-11-17T07:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.2,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        "ROS#"
+      ],
+      "cves": [
+        "CVE-2026-109097"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-321-06.json",
+      "summary": "ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new version for ROS# and recommends to\u2026"
+    },
+    {
+      "id": "ICSA-26-321-05",
+      "title": "Siemens Mendix Studio Pro",
+      "published": "2026-11-10T00:00:00.000000Z",
+      "updated": "2026-11-17T07:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.8,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        "Mendix Studio Pro 11",
+        "Mendix Studio Pro 11.12"
+      ],
+      "cves": [
+        "CVE-2026-112136",
+        "CVE-2026-112137"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-321-05.json",
+      "summary": "Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests, potentially leading to unauthorized data access, tool exec\u2026"
+    },
+    {
+      "id": "ICSA-26-321-04",
+      "title": "Siemens Industrial Software Products",
+      "published": "2026-11-10T00:00:00.000000Z",
+      "updated": "2026-11-17T07:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "CRITICAL",
+      "cvss": 9.8,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        "Calibre",
+        "Calibre ICE",
+        "Capital",
+        "Designcenter X Essentials",
+        "HyperLynx",
+        "Innexis Architecture Native Acceleration 2026",
+        "Insights Hub",
+        "Opcenter Connect Electronics"
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-321-04.json",
+      "summary": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a\u2026"
+    },
+    {
+      "id": "ICSA-26-321-03",
+      "title": "Siemens Industrial Automation Software Products",
+      "published": "2026-11-10T00:00:00.000000Z",
+      "updated": "2026-11-17T07:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "CRITICAL",
+      "cvss": 9.8,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        "COMOS Walkinside",
+        "gDAP (gPROMS Digital Application Platform)",
+        "Project Server Web Administration Tool",
+        "SIMATIC BRAUMAT",
+        "SIMATIC Profiling Tool",
+        "SIMATIC SISTAR",
+        "SIMATIC WinCC Companion",
+        "SIMATIC WinCC OA V3.20"
+      ],
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-321-03.json",
+      "summary": "On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a\u2026"
+    },
     {
       "id": "ICSA-26-307-01",
       "title": "Subnet Solutions PowerSYSTEM Center",
@@ -133,28 +440,6 @@
       "summary": "Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code."
     },
     {
-      "id": "ICSA-26-302-02",
-      "title": "Hitachi Energy TRO600 series products",
-      "published": "2026-10-27T00:00:00.000000Z",
-      "updated": "2026-10-29T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.5,
-      "vendors": [
-        "Hitachi Energy"
-      ],
-      "products": [
-        "TRO600"
-      ],
-      "cves": [
-        "CVE-2026-10756",
-        "CVE-2026-106087"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-302-02.json",
-      "summary": "Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carry out further attacks and disclosure of sensitive information. Please refer\u2026"
-    },
-    {
       "id": "ICSA-26-302-03",
       "title": "Hitachi Energy CoreTec Product",
       "published": "2026-10-27T00:00:00.000000Z",
@@ -178,27 +463,26 @@
       "summary": "Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability of the product. P\u2026"
     },
     {
-      "id": "ICSA-26-302-01",
-      "title": "Siemens Mendix SAML Module",
-      "published": "2026-10-26T00:00:00.000000Z",
+      "id": "ICSA-26-302-02",
+      "title": "Hitachi Energy TRO600 series products",
+      "published": "2026-10-27T00:00:00.000000Z",
       "updated": "2026-10-29T06:00:00.000000Z",
       "kind": "advisory",
-      "severity": "MEDIUM",
-      "cvss": 6.8,
+      "severity": "HIGH",
+      "cvss": 7.5,
       "vendors": [
-        "Siemens"
+        "Hitachi Energy"
       ],
       "products": [
-        "Mendix SAML (Mendix 10 compatible)",
-        "Mendix SAML (Mendix 11 compatible)",
-        "Mendix SAML (Mendix 9 compatible)"
+        "TRO600"
       ],
       "cves": [
-        "CVE-2026-89209"
+        "CVE-2026-10756",
+        "CVE-2026-106087"
       ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-302-01.json",
-      "summary": "Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has released new versions for the affected prod\u2026"
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-302-02.json",
+      "summary": "Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carry out further attacks and disclosure of sensitive information. Please refer\u2026"
     },
     {
       "id": "ICSA-26-316-01",
@@ -228,6 +512,29 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-316-01.json",
       "summary": "On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status o\u2026"
+    },
+    {
+      "id": "ICSA-26-302-01",
+      "title": "Siemens Mendix SAML Module",
+      "published": "2026-10-26T00:00:00.000000Z",
+      "updated": "2026-10-29T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "MEDIUM",
+      "cvss": 6.8,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        "Mendix SAML (Mendix 10 compatible)",
+        "Mendix SAML (Mendix 11 compatible)",
+        "Mendix SAML (Mendix 9 compatible)"
+      ],
+      "cves": [
+        "CVE-2026-89209"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-302-01.json",
+      "summary": "Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has released new versions for the affected prod\u2026"
     },
     {
       "id": "ICSA-26-316-05",
@@ -545,6 +852,64 @@
       "summary": "Successful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level."
     },
     {
+      "id": "ICSA-26-321-02",
+      "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+      "published": "2026-10-13T00:00:00.000000Z",
+      "updated": "2026-11-17T07:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.5,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        ".NET Client Library for SIMATIC S7 Webserver API"
+      ],
+      "cves": [
+        "CVE-2026-85114",
+        "CVE-2026-85115"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-321-02.json",
+      "summary": ".NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has released a new version for .NET Client Library for SIMA\u2026"
+    },
+    {
+      "id": "ICSA-26-295-11",
+      "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+      "published": "2026-10-13T00:00:00.000000Z",
+      "updated": "2026-11-17T07:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "CRITICAL",
+      "cvss": 10.0,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        "SIMATIC S7-1500 CPU 1518-4 PN/DP MFP (6ES7518-4AX00-1AB0)",
+        "SIMATIC S7-1500 CPU 1518-4 PN/DP MFP (6ES7518-4AX00-1AC0)",
+        "SIMATIC S7-1500 CPU 1518F-4 PN/DP MFP (6ES7518-4FX00-1AB0)",
+        "SIMATIC S7-1500 CPU 1518F-4 PN/DP MFP (6ES7518-4FX00-1AC0)",
+        "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP (6AG1518-4AX00-4AC0)"
+      ],
+      "cves": [
+        "CVE-2021-4189",
+        "CVE-2021-41617",
+        "CVE-2023-28531",
+        "CVE-2023-51384",
+        "CVE-2023-52927",
+        "CVE-2023-53292",
+        "CVE-2024-26783",
+        "CVE-2024-27056",
+        "CVE-2024-28757",
+        "CVE-2024-28956",
+        "CVE-2024-36903",
+        "CVE-2024-36927"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-295-11.json",
+      "summary": "Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fixes and recommends specific mitigations for products where fixes ar\u2026"
+    },
+    {
       "id": "ICSA-26-295-18",
       "title": "Siemens RUGGEDCOM APE1808 Devices",
       "published": "2026-10-13T00:00:00.000000Z",
@@ -656,29 +1021,6 @@
       "summary": "RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains multiple vulnerabilities in the integrated SQLite component that could allow an attacker to execute arbitrary code, cause a denial of service, or obtain sensitive information. Siemens has released a new version for RU\u2026"
     },
     {
-      "id": "ICSA-26-295-13",
-      "title": "Siemens WinCC",
-      "published": "2026-10-13T00:00:00.000000Z",
-      "updated": "2026-10-22T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 8.8,
-      "vendors": [
-        "Siemens"
-      ],
-      "products": [
-        "SIMATIC WinCC V7.5",
-        "SIMATIC WinCC V8.0",
-        "SIMATIC WinCC V8.1"
-      ],
-      "cves": [
-        "CVE-2026-59241"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-295-13.json",
-      "summary": "Multiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability that could allow an authenticated user with access to the database to execute commands on the underlying host system. Siemens has released new versions for several affected products a\u2026"
-    },
-    {
       "id": "ICSA-26-295-14",
       "title": "Siemens SIMATIC S7 PLCs Web Server",
       "published": "2026-10-13T00:00:00.000000Z",
@@ -714,6 +1056,29 @@
       "summary": "SIMATIC S7-1500 devices contain multiple vulnerabilities in the web server that could allow an attacker to execute malicious code in an authorized user\u2019s browser session and perform PLC operations within the scope of that user\u2019s authorization. Siemens is preparing fixes and re\u2026"
     },
     {
+      "id": "ICSA-26-295-13",
+      "title": "Siemens WinCC",
+      "published": "2026-10-13T00:00:00.000000Z",
+      "updated": "2026-10-22T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 8.8,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        "SIMATIC WinCC V7.5",
+        "SIMATIC WinCC V8.0",
+        "SIMATIC WinCC V8.1"
+      ],
+      "cves": [
+        "CVE-2026-59241"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-295-13.json",
+      "summary": "Multiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability that could allow an authenticated user with access to the database to execute commands on the underlying host system. Siemens has released new versions for several affected products a\u2026"
+    },
+    {
       "id": "ICSA-26-295-12",
       "title": "Siemens RUGGEDCOM CROSSBOW",
       "published": "2026-10-13T00:00:00.000000Z",
@@ -743,42 +1108,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-295-12.json",
       "summary": "RUGGEDCOM CROSSBOW contains multiple vulnerabilities that could allow an attacker to execute arbitrary SQL commands on the underlying database, retrieve sensitive administrative credentials, escalate privileges, and perform unauthorized operations such as modifying system conf\u2026"
-    },
-    {
-      "id": "ICSA-26-295-11",
-      "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
-      "published": "2026-10-13T00:00:00.000000Z",
-      "updated": "2026-10-22T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "CRITICAL",
-      "cvss": 10.0,
-      "vendors": [
-        "Siemens"
-      ],
-      "products": [
-        "SIMATIC S7-1500 CPU 1518-4 PN/DP MFP (6ES7518-4AX00-1AB0)",
-        "SIMATIC S7-1500 CPU 1518-4 PN/DP MFP (6ES7518-4AX00-1AC0)",
-        "SIMATIC S7-1500 CPU 1518F-4 PN/DP MFP (6ES7518-4FX00-1AB0)",
-        "SIMATIC S7-1500 CPU 1518F-4 PN/DP MFP (6ES7518-4FX00-1AC0)",
-        "SIPLUS S7-1500 CPU 1518-4 PN/DP MFP (6AG1518-4AX00-4AC0)"
-      ],
-      "cves": [
-        "CVE-2021-41617",
-        "CVE-2023-28531",
-        "CVE-2023-51384",
-        "CVE-2023-52927",
-        "CVE-2023-53292",
-        "CVE-2024-26783",
-        "CVE-2024-27056",
-        "CVE-2024-28956",
-        "CVE-2024-36903",
-        "CVE-2024-36927",
-        "CVE-2024-42079",
-        "CVE-2024-46786"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-295-11.json",
-      "summary": "Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fixes and recommends specific mitigations for products where fixes ar\u2026"
     },
     {
       "id": "ICSA-26-295-10",
@@ -1867,6 +2196,29 @@
       "summary": "Successful exploitation of this vulnerability could allow an authenticated remote attacker to write past the end of a heap allocation when Orthanc decodes an attacker-supplied PNG or JPEG image, resulting in a crash of the Orthanc process and a denial-of-service condition."
     },
     {
+      "id": "ICSMA-26-253-01",
+      "title": "NextGen Healthcare Mirth Connect",
+      "published": "2026-09-10T06:00:00.000000Z",
+      "updated": "2026-09-10T06:00:00.000000Z",
+      "kind": "medical",
+      "severity": "HIGH",
+      "cvss": 8.3,
+      "vendors": [
+        "NextGen Healthcare"
+      ],
+      "products": [
+        "Mirth Connect"
+      ],
+      "cves": [
+        "CVE-2026-82583",
+        "CVE-2026-78224",
+        "CVE-2026-82578"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsma-26-253-01.json",
+      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to exfiltrate date or cause a denial-of-service condition."
+    },
+    {
       "id": "ICSA-26-253-01",
       "title": "AVEVA Pipeline Integrity Monitor",
       "published": "2026-09-10T06:00:00.000000Z",
@@ -1889,29 +2241,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-253-01.json",
       "summary": "Successful exploitation of these vulnerabilities could allow an attacker to disclose information, brute-force hashes, or run arbitrary code in a browser session."
-    },
-    {
-      "id": "ICSMA-26-253-01",
-      "title": "NextGen Healthcare Mirth Connect",
-      "published": "2026-09-10T06:00:00.000000Z",
-      "updated": "2026-09-10T06:00:00.000000Z",
-      "kind": "medical",
-      "severity": "HIGH",
-      "cvss": 8.3,
-      "vendors": [
-        "NextGen Healthcare"
-      ],
-      "products": [
-        "Mirth Connect"
-      ],
-      "cves": [
-        "CVE-2026-82583",
-        "CVE-2026-78224",
-        "CVE-2026-82578"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsma-26-253-01.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to exfiltrate date or cause a denial-of-service condition."
     },
     {
       "id": "ICSA-26-258-04",
@@ -2090,6 +2419,30 @@
       "summary": "A vulnerability has been identified in the Open Interface Services (OIS) web module affecting Siveillance Control and Siveillance Control Pro (versions OIS 3.x.y and OIS 4.x.y) . This vulnerability allows an attacker to upload arbitrary files, which can lead to unauthorized ro\u2026"
     },
     {
+      "id": "ICSA-26-258-07",
+      "title": "Siemens Teamcenter",
+      "published": "2026-09-08T00:00:00.000000Z",
+      "updated": "2026-09-15T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "MEDIUM",
+      "cvss": 6.1,
+      "vendors": [
+        "Siemens"
+      ],
+      "products": [
+        "Teamcenter V2412",
+        "Teamcenter V2506",
+        "Teamcenter V2512",
+        "Teamcenter V2606"
+      ],
+      "cves": [
+        "CVE-2026-58113"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-07",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-258-07.json",
+      "summary": "A reflected cross site scripting vulnerability in the authentication redirect flow (/auth/) of Teamcenter allows an unauthenticated remote attacker to inject JavaScript into an authenticated user's session by crafting a malicious URL. Successful exploitation may enable the att\u2026"
+    },
+    {
       "id": "ICSA-26-258-05",
       "title": "Siemens Reyrolle 7SR5",
       "published": "2026-09-08T00:00:00.000000Z",
@@ -2120,30 +2473,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-05",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-258-05.json",
       "summary": "Siemens Reyrolle 7SR5 Before V2.70 is affected by multiple vulnerabilities. Siemens has released a new version for Reyrolle 7SR5 and recommends to update to the latest version."
-    },
-    {
-      "id": "ICSA-26-258-07",
-      "title": "Siemens Teamcenter",
-      "published": "2026-09-08T00:00:00.000000Z",
-      "updated": "2026-09-15T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "MEDIUM",
-      "cvss": 6.1,
-      "vendors": [
-        "Siemens"
-      ],
-      "products": [
-        "Teamcenter V2412",
-        "Teamcenter V2506",
-        "Teamcenter V2512",
-        "Teamcenter V2606"
-      ],
-      "cves": [
-        "CVE-2026-58113"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-07",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-258-07.json",
-      "summary": "A reflected cross site scripting vulnerability in the authentication redirect flow (/auth/) of Teamcenter allows an unauthenticated remote attacker to inject JavaScript into an authenticated user's session by crafting a malicious URL. Successful exploitation may enable the att\u2026"
     },
     {
       "id": "ICSA-26-246-08",
@@ -2239,27 +2568,6 @@
       "summary": "Successful exploitation of this vulnerability could crash the module. The device requires a restart to recover."
     },
     {
-      "id": "ICSA-26-246-03",
-      "title": "Rockwell Automation ControlFLASH",
-      "published": "2026-09-03T06:00:00.000000Z",
-      "updated": "2026-09-03T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.3,
-      "vendors": [
-        "Rockwell Automation"
-      ],
-      "products": [
-        "ControlFLASH"
-      ],
-      "cves": [
-        "CVE-2026-12663"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-246-03.json",
-      "summary": "Successful exploitation of this vulnerability could give an attacker the ability to run any commands or code of the attacker's choice on a target machine at the logged-in user's permission level."
-    },
-    {
       "id": "ICSA-26-246-04",
       "title": "Rockwell Automation ArmorStart LT",
       "published": "2026-09-03T06:00:00.000000Z",
@@ -2280,6 +2588,27 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-04",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-246-04.json",
       "summary": "Successful exploitation of these vulnerabilities could result in a loss of webserver availability or allow an attacker to inject malicious scripts that will be executed when other users access the affected page."
+    },
+    {
+      "id": "ICSA-26-246-03",
+      "title": "Rockwell Automation ControlFLASH",
+      "published": "2026-09-03T06:00:00.000000Z",
+      "updated": "2026-09-03T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.3,
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "products": [
+        "ControlFLASH"
+      ],
+      "cves": [
+        "CVE-2026-12663"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-246-03.json",
+      "summary": "Successful exploitation of this vulnerability could give an attacker the ability to run any commands or code of the attacker's choice on a target machine at the logged-in user's permission level."
     },
     {
       "id": "ICSA-26-246-01",
@@ -2374,6 +2703,27 @@
       "summary": "CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities."
     },
     {
+      "id": "ICSA-26-244-04",
+      "title": "Rockwell Automation FactoryTalk Activation Manager",
+      "published": "2026-09-01T06:00:00.000000Z",
+      "updated": "2026-09-01T06:00:00.000000Z",
+      "kind": "advisory",
+      "severity": "HIGH",
+      "cvss": 7.8,
+      "vendors": [
+        "Rockwell Automation"
+      ],
+      "products": [
+        "FactoryTalk Activation Manager"
+      ],
+      "cves": [
+        "CVE-2026-16675"
+      ],
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04",
+      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-244-04.json",
+      "summary": "CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities."
+    },
+    {
       "id": "ICSA-26-244-03",
       "title": "Rockwell Automation Logix Platform",
       "published": "2026-09-01T06:00:00.000000Z",
@@ -2395,27 +2745,6 @@
       ],
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-244-03.json",
-      "summary": "CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities."
-    },
-    {
-      "id": "ICSA-26-244-04",
-      "title": "Rockwell Automation FactoryTalk Activation Manager",
-      "published": "2026-09-01T06:00:00.000000Z",
-      "updated": "2026-09-01T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.8,
-      "vendors": [
-        "Rockwell Automation"
-      ],
-      "products": [
-        "FactoryTalk Activation Manager"
-      ],
-      "cves": [
-        "CVE-2026-16675"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-244-04.json",
       "summary": "CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities."
     },
     {
@@ -2615,336 +2944,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-02",
       "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-239-02.json",
       "summary": "Successful exploitation of these vulnerabilities could allow attackers to execute arbitrary commands or code remotely on affected systems."
-    },
-    {
-      "id": "ICSA-26-239-01",
-      "title": "Xiiaozet LK100W",
-      "published": "2026-08-27T06:00:00.000000Z",
-      "updated": "2026-08-27T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "CRITICAL",
-      "cvss": 9.8,
-      "vendors": [
-        "Xiiaozet"
-      ],
-      "products": [
-        "LK100W"
-      ],
-      "cves": [
-        "CVE-2026-78037",
-        "CVE-2026-78239",
-        "CVE-2026-76943"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-239-01.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to take control over the device."
-    },
-    {
-      "id": "ICSA-26-237-07",
-      "title": "FURUNO FA-50 Class B AIS Transponder",
-      "published": "2026-08-25T06:00:00.000000Z",
-      "updated": "2026-08-25T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "CRITICAL",
-      "cvss": 9.1,
-      "vendors": [
-        "FURUNO ELECTRIC CO.,LTD."
-      ],
-      "products": [
-        "FURUNO FA-50 Class B AIS Transponder"
-      ],
-      "cves": [
-        "CVE-2026-59769",
-        "CVE-2026-67578"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-07",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-237-07.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to alter device settings."
-    },
-    {
-      "id": "ICSA-26-237-06",
-      "title": "Ebyte NE2-D11",
-      "published": "2026-08-25T06:00:00.000000Z",
-      "updated": "2026-08-25T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "CRITICAL",
-      "cvss": 9.8,
-      "vendors": [
-        "Ebyte"
-      ],
-      "products": [
-        "NE2-D11 Firmware"
-      ],
-      "cves": [
-        "CVE-2026-73125",
-        "CVE-2026-73809",
-        "CVE-2026-73839",
-        "CVE-2026-71187",
-        "CVE-2026-76179",
-        "CVE-2026-75814",
-        "CVE-2026-76940",
-        "CVE-2026-75548",
-        "CVE-2026-75813",
-        "CVE-2026-76945",
-        "CVE-2026-69658"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-237-06.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized administrative access, disclose sensitive information, modify device configuration, hijack authenticated sessions, and disrupt device operation."
-    },
-    {
-      "id": "ICSA-26-237-05",
-      "title": "Bendix EC80 Brake ECU",
-      "published": "2026-08-25T06:00:00.000000Z",
-      "updated": "2026-08-25T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 7.5,
-      "vendors": [
-        "Bendix"
-      ],
-      "products": [
-        "EC80ESP+ J1708",
-        "EC80ESP+ 6S/6M",
-        "EC80ESP+ PLC",
-        "EC80ESP+ 2nd CAN",
-        "EC80ESP+ Integrated TPMS",
-        "EC80ESP 6S/6M",
-        "EC80ESP PLC",
-        "EC80ESP 2nd CAN"
-      ],
-      "cves": [
-        "CVE-2026-67560",
-        "CVE-2026-68967",
-        "CVE-2026-71396"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-05",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-237-05.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to cause the loss of ABS functions, steering assist, speedometer, shifting capabilities, or disable automatic traction control."
-    },
-    {
-      "id": "ICSA-26-237-04",
-      "title": "PayRange API",
-      "published": "2026-08-25T06:00:00.000000Z",
-      "updated": "2026-08-25T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 8.8,
-      "vendors": [
-        "PayRange"
-      ],
-      "products": [
-        "PayRange API"
-      ],
-      "cves": [
-        "CVE-2026-18965"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-237-04.json",
-      "summary": "Successful exploitation of this vulnerability could allow a remote, authenticated or unauthenticated attacker to disclose sensitive information, arbitrarily modify the device to cause a denial of service, or alter a devices displayed image."
-    },
-    {
-      "id": "ICSA-26-237-02",
-      "title": "Zoneminder",
-      "published": "2026-08-25T06:00:00.000000Z",
-      "updated": "2026-08-25T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 8.8,
-      "vendors": [
-        "Zoneminder"
-      ],
-      "products": [
-        "Zoneminder"
-      ],
-      "cves": [
-        "CVE-2026-76060"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-02",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-237-02.json",
-      "summary": "Successful exploitation of this vulnerability could result in full Remote Code Execution (RCE) as the web server user."
-    },
-    {
-      "id": "ICSA-26-237-01",
-      "title": "Rently Smart Home",
-      "published": "2026-08-25T06:00:00.000000Z",
-      "updated": "2026-08-25T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 8.1,
-      "vendors": [
-        "Rently"
-      ],
-      "products": [
-        "Smart Home"
-      ],
-      "cves": [
-        "CVE-2026-75960"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-237-01.json",
-      "summary": "Successful exploitation of this vulnerability could allow an attacker to access sensitive information and override user permissions."
-    },
-    {
-      "id": "ICSA-26-232-01",
-      "title": "Johnson Controls Simplex Incident Manager",
-      "published": "2026-08-20T06:00:00.000000Z",
-      "updated": "2026-08-20T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "MEDIUM",
-      "cvss": 5.8,
-      "vendors": [
-        "Johnson Controls Inc."
-      ],
-      "products": [
-        "Simplex Incident Manager"
-      ],
-      "cves": [
-        "CVE-2026-27875"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-232-01.json",
-      "summary": "Successful exploitation of this vulnerability could allow a local attacker with low privileges to extract user credentials (passwords and authentication tokens) from system memory, potentially leading to unauthorized access to the application and connected systems."
-    },
-    {
-      "id": "ICSA-26-230-01",
-      "title": "CISA Malcolm",
-      "published": "2026-08-18T06:00:00.000000Z",
-      "updated": "2026-08-18T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 8.8,
-      "vendors": [
-        "CISA"
-      ],
-      "products": [
-        "Malcolm"
-      ],
-      "cves": [
-        "CVE-2026-63133",
-        "CVE-2026-63134",
-        "CVE-2026-55676",
-        "CVE-2026-63177",
-        "CVE-2026-19670",
-        "CVE-2026-19671"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-230-01.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition or execute arbitrary code."
-    },
-    {
-      "id": "ICSMA-26-225-01",
-      "title": "Flow Neuroscience FL-100",
-      "published": "2026-08-13T06:00:00.000000Z",
-      "updated": "2026-08-13T06:00:00.000000Z",
-      "kind": "medical",
-      "severity": "HIGH",
-      "cvss": 8.1,
-      "vendors": [
-        "Flow Neuroscience"
-      ],
-      "products": [
-        "Flow Neuroscience FL-100",
-        "Halo Neuroscience FL-100"
-      ],
-      "cves": [
-        "CVE-2026-18164"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsma-26-225-01.json",
-      "summary": "Successful exploitation of this vulnerability could allow an attacker within Bluetooth range to manipulate brain stimulation parameters and override safety limits."
-    },
-    {
-      "id": "ICSA-26-225-14",
-      "title": "Johnson Controls Metasys",
-      "published": "2026-08-13T06:00:00.000000Z",
-      "updated": "2026-08-13T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 8.0,
-      "vendors": [
-        "Johnson Controls Inc"
-      ],
-      "products": [
-        "Metasys 12",
-        "Metasys 13",
-        "Metasys 14",
-        "Metasys 15"
-      ],
-      "cves": [
-        "CVE-2026-34491"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-14",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-225-14.json",
-      "summary": "Successful exploitation of this vulnerability could allow a low-privilege user or attacker to inject a persistent malicious payload via a crafted URL that executes in the context of other users' sessions, including administrators, potentially leading to session hijacking and u\u2026"
-    },
-    {
-      "id": "ICSA-26-225-05",
-      "title": "ANDRITZ HIPASE-250 and 250 SCALA",
-      "published": "2026-08-13T06:00:00.000000Z",
-      "updated": "2026-08-13T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "HIGH",
-      "cvss": 8.1,
-      "vendors": [
-        "ANDRITZ"
-      ],
-      "products": [
-        "HIPASE-250",
-        "250 SCALA"
-      ],
-      "cves": [
-        "CVE-2026-65309",
-        "CVE-2026-65310",
-        "CVE-2026-65311",
-        "CVE-2026-65313"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-05",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-225-05.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to read data from the device or gain access to affected workstations."
-    },
-    {
-      "id": "ICSA-26-225-03",
-      "title": "Johnson Controls Inc. Airwall",
-      "published": "2026-08-13T06:00:00.000000Z",
-      "updated": "2026-08-13T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "MEDIUM",
-      "cvss": 6.8,
-      "vendors": [
-        "Johnson Controls Inc."
-      ],
-      "products": [
-        "Airwall"
-      ],
-      "cves": [
-        "CVE-2026-64887",
-        "CVE-2026-34492"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-03",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-225-03.json",
-      "summary": "Successful exploitation of these vulnerabilities could allow an attacker to decrypt sensitive data, bypass authentication controls, gaining unauthorized access to read arbitrary files on the system, or gain unauthorized access to protected system resources."
-    },
-    {
-      "id": "ICSA-26-225-02",
-      "title": "Haiwell IoT Cloud HMI Gateway",
-      "published": "2026-08-13T06:00:00.000000Z",
-      "updated": "2026-08-13T06:00:00.000000Z",
-      "kind": "advisory",
-      "severity": "CRITICAL",
-      "cvss": 10.0,
-      "vendors": [
-        "Haiwell"
-      ],
-      "products": [
-        "Haiwell IoT Cloud HMI Gateway"
-      ],
-      "cves": [
-        "CVE-2026-19188"
-      ],
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-02",
-      "csaf_url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-225-02.json",
-      "summary": "Successful exploitation of this vulnerability may allow an attacker to inject and execute arbitrary OS commands with root privileges."
     }
   ]
 }
